@@ -1,0 +1,124 @@
+.img-face {
+    max-width: 18em;
+}
+
+.bg-light {
+    background-color: #efeeec !important;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
+
+body {
+    font-family: "Heebo";
+    font-size: 16px;
+    color: rgb(51, 51, 51, 1) !important;
+}
+
+.text-primary {
+    color: rgb(51, 51, 51, 1) !important;
+}
+
+.text-secondary {
+    color: aliceblue !important;
+}
+
+.text-success {
+    color: rgb(50, 168, 163) !important;
+}
+
+.fw-bolder {
+    font-weight: bolder !important;
+}
+
+.bg-success-aqua {
+    background-color: rgb(50, 168, 163, 0.75) !important;
+}
+
+.bg-success {
+    background-color: rgb(50, 168, 163) !important;
+}
+
+.bg-secondary {
+    background-color: rgb(66, 66, 66) !important;
+}
+
+.short-description {
+    min-height: 140px !important;
+    color: aliceblue;
+}
+
+.topics-left {
+    min-height: 55px !important;
+    padding-top: 13px;
+}
+
+.fs-1 {
+    font-size: 3.5rem !important;
+}
+
+@media (max-width: 1399px) {
+    .fs-1 {
+        font-size: 3rem !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .fs-1 {
+        font-size: 2.5rem !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .fs-1 {
+        font-size: 1.9rem !important;
+    }
+    .fs-3 {
+        font-size: 1.7rem !important;
+    }
+}
+
+@media (max-width: 482px) {
+    .fs-1 {
+        font-size: 1.7rem !important;
+    }
+    .fs-3 {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 436px) {
+    .fs-1 {
+        font-size: 1.5rem !important;
+    }
+    .fs-3 {
+        font-size: 1.3rem !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .fs-1 {
+        font-size: 1.3rem !important;
+    }
+    .fs-3 {
+        font-size: 1.1rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .position-absolute {
+        position: relative !important;
+    }
+
+    .hide-sm {
+        display: none;
+        visibility: hidden;
+    }
+}
