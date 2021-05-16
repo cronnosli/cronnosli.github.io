@@ -22,6 +22,9 @@
     "experience": {
         "recent": "recent work experience",
         "skills": "skill & expertise"
+    },
+    "date": {
+        "currently": "currently"
     }
 
 }

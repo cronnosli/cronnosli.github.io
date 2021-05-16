@@ -22,5 +22,8 @@
     "experience": {
         "recent": "EXPERIÊNCIAS DE TRABALHO recente",
         "skills": "HABILIDADES E ESPECIALIDADES"
+    },
+    "date": {
+        "currently": "Atualmente"
     }
 }
