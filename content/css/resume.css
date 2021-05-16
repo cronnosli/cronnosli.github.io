@@ -1,9 +1,16 @@
-.img-face {
-    max-width: 18em;
-}
-
 .bg-light {
     background-color: #efeeec !important;
+}
+
+.bg-dark {
+    background-color: rgb(38, 38, 38) !important;
+}
+
+.img-face {
+    border: 0 !important;
+    border: 0 !important;
+    box-shadow: none;
+    padding: 0;
 }
 
 .row {
@@ -60,8 +67,29 @@ body {
     padding-top: 13px;
 }
 
+.separator-title {
+    min-height: 80px;
+}
+
+.separator-bar {
+    min-height: 5px !important;
+    height: 5px !important;
+    max-height: 5px !important;
+    position: relative !important;
+    bottom: 23px;
+}
+
 .fs-1 {
     font-size: 3.5rem !important;
+}
+
+.ps-6 {
+    padding-left: 3.5rem !important;
+}
+
+.lgpd-banner {
+    opacity: 0.9;
+    min-height:50px;
 }
 
 @media (max-width: 1399px) {
@@ -82,6 +110,12 @@ body {
     }
     .fs-3 {
         font-size: 1.7rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .img-face {
+        max-width: 50% !important;
     }
 }
 
