@@ -1,0 +1,27 @@
+{
+    "title": "Resume",
+    "menu": {
+        "resume": "Resume",
+        "language": "Language",
+        "english": "English",
+        "portuguese": "Portuguese"
+    },
+    "profession": {
+        "title": "Senior Software Engineer",
+        "description": "Experienced software engineer with over 15 years of experience in C/C++, PHP, Python, Javascript, among others. Highly experienced in software architecture, CI/CD, versioning, cloud architecture, API’s, embedded systems, Web systems, backend, agile methodologies, distributed systems, IOT, SQL and NoSQL databases"
+    },
+    "footer": {
+        "lgpd": "This site uses cookies to provide the necessary functionality and improve your browsing experience. By continuing to browse the site, you agree to the use of cookies.",
+        "lgpd-confirm": "Confirm"
+    },
+    "side": {
+        "contact": "Contact",
+        "education": "Education",
+        "references": "References"
+    },
+    "experience": {
+        "recent": "recent work experience",
+        "skills": "skill & expertise"
+    }
+
+}
