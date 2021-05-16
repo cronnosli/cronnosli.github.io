@@ -1,6 +1,57 @@
 {
-    "header": {
-        "name": "douglas menegon cordeiro",
-        "short-name": "douglas"
-    }
+    "i18n": {
+        "en": {
+            "header": {
+                "name": "douglas menegon cordeiro",
+                "short-name": "douglas"
+            }
+        },
+        "pt-br": {
+            "header": {
+                "name": "douglas menegon cordeiro",
+                "short-name": "douglas"
+            }
+        }
+    },
+    "contact": [
+        {
+            "type": "text",
+            "i18n": {
+                "en": "Phone: +55 41 99631 9109",
+                "pt-br": "Telefone: (41) 99631 9109"
+            }
+        },
+        {
+            "type": "link",
+            "link": "https://www.linkedin.com/in/douglasmcordeiro/",
+            "i18n": {
+                "en": "LinkedIn",
+                "pt-br": "LinkedIn"
+            }
+        },
+        {
+            "type": "link",
+            "link": "https://github.com/cronnosli/",
+            "i18n": {
+                "en": "Github",
+                "pt-br": "Github"
+            }
+        },
+        {
+            "type": "link",
+            "link": "https://cronnosli.github.io/",
+            "i18n": {
+                "en": "Site",
+                "pt-br": "Site"
+            }
+        },
+        {
+            "type": "link",
+            "link": "mailto:douglas.m.cordeiro.1984@gmail.com",
+            "i18n": {
+                "en": "Email",
+                "pt-br": "E-mail"
+            }
+        }
+    ]
 }

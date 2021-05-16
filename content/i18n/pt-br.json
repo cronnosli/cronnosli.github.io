@@ -11,8 +11,8 @@
         "description": "Experiente engenheiro de software com mais de 15 anos de experiência em C/C++, PHP, Python, Javascript, entre outras linguagens. Altamente experiente em arquitetura de software, CI/CD, controle de versões, arquitetura em nuvem, APIs, sistemas embarcados, sistemas web, back-end, metodologias ágeis, sistemas distribuidos, IOT, banco de dados SQL e NoSQL"
     },
     "footer": {
-        "lgpd": "Este site utiliza cookies para proporcionar a funcionalidade necessária e aprimorar sua experiência de navegação. Ao continuar a navegar pelo site, você concorda com a utilização de cookies.",
-        "lgpd-confirm": "Confirmar"
+        "cookies-warning": "Este site utiliza cookies para proporcionar a funcionalidade necessária e aprimorar sua experiência de navegação. Ao continuar a navegar pelo site, você concorda com a utilização de cookies.",
+        "cookies-confirm": "Confirmar"
     },
     "side": {
         "contact": "Contato",
@@ -20,7 +20,7 @@
         "references": "Referências"
     },
     "experience": {
-        "recent": "EXPERIÊNCIAS DE TRABALHO recente",
+        "recent": "EXPERIÊNCIAS DE TRABALHO recentes",
         "skills": "HABILIDADES E ESPECIALIDADES"
     },
     "date": {

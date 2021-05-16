@@ -28,9 +28,20 @@ class I18nTranslator {
             this._globalObject[registerGlobally] = this.translateForKey.bind(this);
         }
 
-        /*if (detectLanguage) {
-            this._detectLanguage();
-        }*/
+        this._listener();
+    }
+
+    /**
+    * Start listener.
+    *
+    */
+    _listener() {
+        document.querySelectorAll(this.config.languageSelector).forEach((languageSelector) => {
+            languageSelector.addEventListener("click", () => {
+                localStorage.setItem('userLanguagePreference', languageSelector.getAttribute(this.config.languageSelectorAttribute));
+                this.translatePageTo(languageSelector.getAttribute(this.config.languageSelectorAttribute));
+            })
+        });
     }
 
     get _globalObject() {
@@ -290,6 +301,8 @@ class I18nTranslator {
             persist: false,
             persistKey: 'preferred_language',
             filesLocation: '/content/i18n',
+            languageSelector: '[data-language-selector="true"]',
+            languageSelectorAttribute: 'data-language',
         };
     }
 }
