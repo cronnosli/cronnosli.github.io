@@ -63,6 +63,15 @@
                 "en": "Computer Engineering",
                 "pt-br": "engenharia da computação"
             }
+        },
+        {
+            "start": "2015",
+            "end": "2017",
+            "institution": "Unicesumar",
+            "i18n": {
+                "en": "information technology management",
+                "pt-br": "gestão da tecnologia da informação"
+            }
         }
     ],
     "reference": [
