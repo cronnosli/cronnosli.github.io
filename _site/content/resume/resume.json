@@ -18,7 +18,7 @@
             "type": "text",
             "i18n": {
                 "en": "Phone: +55 41 99631 9109",
-                "pt-br": "Telefone: (41) 99631 9109"
+                "pt-br": "Telefone: +55 41 99631 9109"
             }
         },
         {
@@ -51,6 +51,45 @@
             "i18n": {
                 "en": "Email",
                 "pt-br": "E-mail"
+            }
+        }
+    ],
+    "education": [
+        {
+            "start": "2001",
+            "end": "2004",
+            "institution": "UNIUBE",
+            "i18n": {
+                "en": "Computer Engineering",
+                "pt-br": "engenharia da computação"
+            }
+        }
+    ],
+    "reference": [
+        {
+            "name": "Higino Santos",
+            "company": "Telefonica Brasil",
+            "contact": "+55 41 98739 4857",
+            "i18n": {
+                "en": "Software Development Manager",
+                "pt-br": "Gerente de Desenvolvimento de sistemas"
+            }
+        },
+        {
+            "name": "Luiz Cezar",
+            "contact": "+55 41 99801 7884",
+            "i18n": {
+                "en": "Consultant",
+                "pt-br": "Consultor"
+            }
+        },        
+        {
+            "name": "Wellison Straiotto",
+            "company": "Stratec",
+            "contact": "+55 41 99929 7074",
+            "i18n": {
+                "en": "Owner",
+                "pt-br": "Sócio"
             }
         }
     ]
