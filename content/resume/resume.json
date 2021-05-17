@@ -98,7 +98,7 @@
             "start": "2021",
             "company": "Payface",
             "i18n": {
-                "en": "Senior Backend Software Engineer",
+                "en": "Senior Back-end Software Engineer",
                 "pt-br": "Engenheiro de Software Back-end Sênior"
             },
             "description": [
@@ -138,7 +138,7 @@
                     }
                 }
             ]
-        },
+        },        
         {
             "start": "2017",
             "company": "DMC Consultoria",
@@ -163,6 +163,188 @@
                     "i18n": {
                         "en": "Solve Tech and IT process",
                         "pt-br": "Soluções em Técnologia e processos de T.I."
+                    }
+                }
+            ]
+        }
+    ],
+    "complete-experience": [        
+        {
+            "start": "2018",
+            "end": "2019",
+            "company": "Deal",
+            "i18n": {
+                "en": "Senior Back-end Software Engineer",
+                "pt-br": "Engenheiro de Software Back-end Sênior"
+            },
+            "description": [
+                {
+                    "i18n": {
+                        "en": "Allocated to outsourced work at Telefonica Brasil",
+                        "pt-br": "Alocado para trabalho tercerizado na Telefonica Brasil"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Develop software solutions for IPTV/Set-top-box devices",
+                        "pt-br": "Desenvolver soluções de software para dispositivos IPTV / decodificadores"
+                    }
+                }
+            ]
+        },
+        {
+            "start": "2016",
+            "end": "2018",
+            "company": "Grupo ABL",
+            "i18n": {
+                "en": "Senior C/C++ Software Engineer",
+                "pt-br": "Engenheiro de Software C/C++ Sênior"
+            },
+            "description": [
+                {
+                    "i18n": {
+                        "en": "Design software prototypes",
+                        "pt-br": "Projetar protótipos de sistemas computacionais"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Design electronic prototypes",
+                        "pt-br": "Projetar protótipos eletrônicos"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Develop self-service and payment equipment",
+                        "pt-br": "Desenvolver equipamentos de auto-atendimento e pagamento"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Technically leading the development and architecture team",
+                        "pt-br": "Liderar técnicamente equipe de desenvolvimento e arquitetura"
+                    }
+                }
+            ]
+        },
+        {
+            "start": "2013",
+            "end": "2015",
+            "company": "Miti Inteligência",
+            "i18n": {
+                "en": "Senior Software Engineer / Network Administrator",
+                "pt-br": "Engenheiro de Software Sênior / Administrador de redes"
+            },
+            "description": [
+                {
+                    "i18n": {
+                        "en": "Develop software solutions for content indexing",
+                        "pt-br": "Desenvolver soluções de software para indexação de conteúdo"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Maintain and update on-premises and cloud infrastructure",
+                        "pt-br": "Manter e atualizar infraestrutura local e na nuvem"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Technically leading the development and infrastructure team",
+                        "pt-br": "Liderar técnicamente equipe de desenvolvimento e infraestrutura"
+                    }
+                }
+            ]
+        },
+        {
+            "start": "2012",
+            "end": "2013",
+            "company": "Pubble ",
+            "i18n": {
+                "en": "Full Software Engineer",
+                "pt-br": "Engenheiro de Software Pleno"
+            },
+            "description": [
+                {
+                    "i18n": {
+                        "en": "Develop API's",
+                        "pt-br": "Desenvolver API's"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Linux system administration",
+                        "pt-br": "Administrar de sistemas linux"
+                    }
+                }
+            ]
+        },
+        {
+            "start": "2011",
+            "end": "2012",
+            "company": "Politec(Indra)",
+            "i18n": {
+                "en": "Systems Support Analyst",
+                "pt-br": "Analista de Suporte a sistemas"
+            },
+            "description": [
+                {
+                    "i18n": {
+                        "en": "Allocated to outsourced work at HSBC GLT",
+                        "pt-br": "Alocado para trabalho tercerizado no HSBC GLT"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Linux system administration",
+                        "pt-br": "Administrar de sistemas linux"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Manage and maintain swift bank messaging system",
+                        "pt-br": "Gerenciar e manter sistema de mensageria bancária swift"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Develop support automation routines",
+                        "pt-br": "Desenvolver rotinas de automatização de suporte"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Manage exchange transactions database",
+                        "pt-br": "Administrar banco de dados de transações de câmbio"
+                    }
+                }
+            ]
+        },
+        {
+            "start": "2010",
+            "end": "2011",
+            "company": "Javé Nessí",
+            "i18n": {
+                "en": "Full C/C ++ Developer",
+                "pt-br": "Desenvolvedor C/C++ Pleno"
+            },
+            "description": [
+                {
+                    "i18n": {
+                        "en": "Develop API's",
+                        "pt-br": "Desenvolver API's"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Develop Front-end interface",
+                        "pt-br": "Desenvolver interface front-end"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Linux system administration",
+                        "pt-br": "Administrar de sistemas linux"
                     }
                 }
             ]

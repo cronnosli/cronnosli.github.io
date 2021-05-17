@@ -50,6 +50,8 @@ class ResumeBuilder {
             this.buildReference(res.data.reference);
             res.data['short-experience'].prefix = this.config.shortExperiencePrefix;
             this.buildExperience(res.data['short-experience']);
+            res.data['complete-experience'].prefix = this.config.completeExperiencePrefix;
+            this.buildExperience(res.data['complete-experience']);
             res.data['main-skills'].prefix = this.config.mainSkills;
             res.data['secondary-skills'].prefix = this.config.secondarySkills;
             this.buildSkill(res.data['main-skills']);
@@ -315,6 +317,7 @@ class ResumeBuilder {
             educationPrefix: 'education',
             referencePrefix: 'reference',
             shortExperiencePrefix: 'short-experience',
+            completeExperiencePrefix: 'complete-experience',
             mainSkills: 'main-skills',
             secondarySkills: 'secondary-skills',
         };

@@ -21,6 +21,7 @@
     },
     "experience": {
         "recent": "recent work experience",
+        "complete": "extended work experience",
         "skills": "skill & expertise"
     },
     "date": {
