@@ -83,13 +83,26 @@ body {
     font-size: 3.5rem !important;
 }
 
+.fs-7 {
+    font-size: 0.8rem !important;
+}
+
 .ps-6 {
     padding-left: 3.5rem !important;
 }
 
 .cookies-banner {
     opacity: 0.9;
-    min-height:50px;
+    min-height: 50px;
+}
+
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: #424242;
+    border-radius: 0.25rem;
 }
 
 @media (max-width: 1399px) {

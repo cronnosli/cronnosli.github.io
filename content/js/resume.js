@@ -48,10 +48,15 @@ class ResumeBuilder {
             this.buildContact(res.data.contact);
             this.buildEducation(res.data.education);
             this.buildReference(res.data.reference);
+            res.data['short-experience'].prefix = this.config.shortExperiencePrefix;
+            this.buildExperience(res.data['short-experience']);
+            res.data['main-skills'].prefix = this.config.mainSkills;
+            res.data['secondary-skills'].prefix = this.config.secondarySkills;
+            this.buildSkill(res.data['main-skills']);
+            this.buildSkill(res.data['secondary-skills']);
             return this.translations;
         }).then((translations) => {
             for (const i18n in translations) {
-                console.log(i18n);
                 this.i18n.add(i18n, translations[i18n]).translatePageTo(this.config.defaultLanguage);
             }
         });
@@ -132,7 +137,7 @@ class ResumeBuilder {
     buildReference(reference) {
         const referenceList = document.getElementById(this.config.referencePrefix);
         let indexReference = 0;
-        for (indexReference = 0; indexReference < education.length; indexReference++) {
+        for (indexReference = 0; indexReference < reference.length; indexReference++) {
             const referenceSettings = reference[indexReference];
             const item = this.config.referencePrefix + '.S' + indexReference;
             this.parseI18n({
@@ -140,19 +145,23 @@ class ResumeBuilder {
                 item: 'S' + indexReference,
                 i18n: referenceSettings.i18n,
             });
-            const newEducationUlLi0 = document.createElement('li');
-            newEducationUlLi0.setAttribute('class', 'mt-2');
-            newEducationUlLi0.innerHTML = start + ' - ' + end;
-            const newEducationUlLi1 = document.createElement('li');
-            newEducationUlLi1.setAttribute('class', 'mt-0');
-            newEducationUlLi1.appendChild(document.createTextNode(institution));
-            const newEducationUlLi2 = document.createElement('li');
-            newEducationUlLi2.setAttribute('class', 'mt-0');
-            newEducationUlLi2.setAttribute('data-i18n', item);
-            newEducationUlLi2.appendChild(document.createTextNode(item));
-            referenceList.appendChild(newEducationUlLi0);
-            referenceList.appendChild(newEducationUlLi1);
-            referenceList.appendChild(newEducationUlLi2);
+            const newReferenceLi0 = document.createElement('li');
+            newReferenceLi0.setAttribute('class', 'mt-4');
+            newReferenceLi0.appendChild(document.createTextNode(referenceSettings.name + ','));
+            const newReferenceLi1 = document.createElement('li');
+            newReferenceLi1.setAttribute('class', 'mt-0');
+            newReferenceLi1.setAttribute('data-i18n', item);
+            newReferenceLi1.appendChild(document.createTextNode(item));
+            const newReferenceLi2 = document.createElement('li');
+            newReferenceLi2.setAttribute('class', 'mt-0');
+            newReferenceLi2.appendChild(document.createTextNode(referenceSettings.hasOwnProperty('company') ? referenceSettings.company : ''));
+            const newReferenceLi3 = document.createElement('li');
+            newReferenceLi3.setAttribute('class', 'mt-0');
+            newReferenceLi3.appendChild(document.createTextNode(referenceSettings.contact));
+            referenceList.appendChild(newReferenceLi0);
+            referenceList.appendChild(newReferenceLi1);
+            if (referenceSettings.hasOwnProperty('company')) { referenceList.appendChild(newReferenceLi2); }
+            referenceList.appendChild(newReferenceLi3);
         }
     }
 
@@ -198,6 +207,100 @@ class ResumeBuilder {
     }
 
     /**
+     * Build Resume experience
+     * 
+     * @param {Object} experience
+     */
+    buildExperience(experience) {
+        const experienceList = document.getElementById(experience.prefix);
+        let indexExperience = 0;
+        for (indexExperience = 0; indexExperience < experience.length; indexExperience++) {
+            const experienceSettings = experience[indexExperience];
+            const start = experienceSettings.start;
+            const company = experienceSettings.company;
+            const end = experienceSettings.hasOwnProperty('end') ? experienceSettings.end : '<span data-i18n="date.currently" class="text-capitalize"></span>';
+            const experienceHead = start + ' - ' + end + ' ' + company + '.';
+            const item = experience.prefix + '.S' + indexExperience;
+            this.parseI18n({
+                group: experience.prefix,
+                item: 'S' + indexExperience,
+                i18n: experienceSettings.i18n,
+            });
+            const newExperience = document.createElement('div');
+            newExperience.setAttribute('class', 'row align-items-md-stretch ps-4 fs-6');
+            const newExperienceHead = document.createElement('div');
+            newExperienceHead.setAttribute('class', 'col-md-12 fw-bold ps-4');
+            newExperienceHead.innerHTML = experienceHead;
+            const newExperienceProfession = document.createElement('div');
+            newExperienceProfession.setAttribute('class', 'col-md-12 fw-normal ps-4');
+            newExperienceProfession.setAttribute('data-i18n', item);
+            newExperienceProfession.appendChild(document.createTextNode(item));
+            const newExperienceDescription = document.createElement('div');
+            newExperienceDescription.setAttribute('class', 'col-md-12 fw-normal ps-4');
+            const newExperienceDescriptionList = document.createElement('ul');
+            for (const description in experienceSettings.description) {
+                const descriptionItem = experience.prefix + '.S' + indexExperience + 'L' + description;
+                this.parseI18n({
+                    group: experience.prefix,
+                    item: 'S' + indexExperience + 'L' + description,
+                    i18n: experienceSettings.description[description].i18n,
+                });
+                const newExperienceDescriptionListLi = document.createElement('li');
+                newExperienceDescriptionListLi.setAttribute('class', 'mt-0 fw-normal');
+                newExperienceDescriptionListLi.setAttribute('data-i18n', descriptionItem);
+                newExperienceDescriptionListLi.appendChild(document.createTextNode(descriptionItem));
+                newExperienceDescriptionList.appendChild(newExperienceDescriptionListLi);
+            }
+
+            newExperienceDescription.appendChild(newExperienceDescriptionList);
+            newExperience.appendChild(newExperienceHead);
+            newExperience.appendChild(newExperienceProfession);
+            newExperience.appendChild(newExperienceDescription);
+            experienceList.appendChild(newExperience);
+        }
+    }
+
+    /**
+     * Build Resume skill
+     * 
+     * @param {Object} skill
+     */
+    buildSkill(skill) {
+        const skillList = document.getElementById(skill.prefix);
+        let indexSkill = 0;
+        for (indexSkill = 0; indexSkill < skill.length; indexSkill++) {
+            const skillSettings = skill[indexSkill];
+            const item = skill.prefix + '.S' + skill.prefix + indexSkill;
+            this.parseI18n({
+                group: skill.prefix,
+                item: 'S' + skill.prefix + indexSkill,
+                i18n: skillSettings.i18n,
+            });
+            const newSkill = document.createElement('div');
+            newSkill.setAttribute('class', 'row pt-4 align-items-md-stretch');
+            const newSkillName = document.createElement('div');
+            newSkillName.setAttribute('class', 'col-md-4 ps-4');
+            newSkillName.setAttribute('data-i18n', item);
+            const newSkillPoint = document.createElement('div');
+            newSkillPoint.setAttribute('class', 'col-md-8 ps-4');
+            const newSkillPointProgress = document.createElement('div');
+            newSkillPointProgress.setAttribute('class', 'progress');
+            newSkillPoint.appendChild(newSkillPointProgress);
+            const newSkillPointProgressBar = document.createElement('div');
+            newSkillPointProgressBar.setAttribute('class', 'progress-bar bg-success');
+            newSkillPointProgressBar.setAttribute('role', 'progressbar');
+            newSkillPointProgressBar.setAttribute('style', 'width: ' + skillSettings.skill + '%');
+            newSkillPointProgressBar.setAttribute('aria-valuenow', skillSettings.skill);
+            newSkillPointProgressBar.setAttribute('aria-valuemin', '0');
+            newSkillPointProgressBar.setAttribute('aria-valuemax', '100');
+            newSkillPointProgress.appendChild(newSkillPointProgressBar);
+            newSkill.appendChild(newSkillName);
+            newSkill.appendChild(newSkillPoint);
+            skillList.appendChild(newSkill);
+        }
+    }
+
+    /**
      * Return the default config object whose keys can be overriden
      * by the user's config passed to the constructor.
      *
@@ -209,9 +312,11 @@ class ResumeBuilder {
             languageSelector: '[data-language-selector="true"]',
             languageSelectorAttribute: 'data-language',
             contactPrefix: 'contact',
-            referencePrefix: 'reference',
             educationPrefix: 'education',
             referencePrefix: 'reference',
+            shortExperiencePrefix: 'short-experience',
+            mainSkills: 'main-skills',
+            secondarySkills: 'secondary-skills',
         };
     }
 
