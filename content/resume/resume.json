@@ -112,6 +112,12 @@
             },
             "description": [
                 {
+                    {
+                    "i18n": {
+                        "en": "Tech lead for Consumer and  Client / Integration teams",
+                        "pt-br": "Tech lead(liderança técnica) dos times de Consumidor e Cliente / Integrador"
+                    }
+                    },
                     "i18n": {
                         "en": "Develop back-end software for payment systems",
                         "pt-br": "Desenvolver software back-end para sistemas de pagamento"
