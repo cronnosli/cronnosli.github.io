@@ -100,6 +100,15 @@
                 "en": "Owner",
                 "pt-br": "Sócio"
             }
+        },
+        {
+            "name": "Bruna Adriano",
+            "company": "Payface",
+            "contact": "+55 48 99631 0009",
+            "i18n": {
+                "en": "Head of People",
+                "pt-br": "Head of People"
+            }
         }
     ],
     "short-experience": [        
@@ -115,6 +124,22 @@
                     "i18n": {
                         "en": "Develop back-end software for payment systems",
                         "pt-br": "Desenvolver software back-end para sistemas de pagamento"
+                    },
+                    "i18n": {
+                        "en": "API's design",
+                        "pt-br": "Desenho de API's"
+                    },
+                    "i18n": {
+                        "en": "Implement agile culture",
+                        "pt-br": "Planejamento e treinamento de Agile(Scrum)"
+                    },
+                    "i18n": {
+                        "en": "Design and plan architecture solutions",
+                        "pt-br": "Desenhar e planejar arquitetura de soluções"
+                    },
+                    "i18n": {
+                        "en": "Technical analysis of demands (roadmap, internal tools, refactoring)",
+                        "pt-br": "Análise técnica de demandas(roadmap, ferramentas internas, refactoring)"
                     },
                     "i18n": {
                         "en": "Tech lead for Consumer and  Client / Integration teams ",
