@@ -111,9 +111,56 @@
             }
         }
     ],
-    "short-experience": [        
+    "short-experience": [       
+        {
+          "start": "2022",
+          "company": "CheeseCake Labs",
+          "i18n": {
+            "en": "Tech lead Enginnering",
+            "pt-br": "Tech lead Enginnering"
+          },
+          "description": [
+              {
+                  "i18n": {
+                      "en": "Technical leadership for mobile and web projects",
+                      "pt-br": "Liderança técnica para projetos mobile e web"
+                  }
+              },
+              {
+                  "i18n": {
+                      "en": "Responsible for ensure the quality and delivery of the projects",
+                      "pt-br": "Responsável por garantir a qualidade e entrega dos projetos"
+                  }
+              },
+              {
+                  "i18n": {
+                      "en": "Carrer menagement",
+                      "pt-br": "Gestão de carreira"
+                  }
+              },
+              {
+                  "i18n": {
+                      "en": "Ensure best software architecture and best patterns",
+                      "pt-br": "Garantir a melhor arquitetura e padrões de software"
+                  }
+              },
+              {
+                  "i18n": {
+                      "en": "Task and issue menagenament",
+                      "pt-br": "Gestão de tarefas e issues"
+                  }
+              },
+              {
+                  "i18n": {
+                      "en": "Ensure the best practices of the company",
+                      "pt-br": "Garantir as melhores práticas da empresa"
+                  }
+              }
+            ]
+        }, 
         {
             "start": "2021",
+            "end": "2022",
             "company": "Payface",
             "i18n": {
                 "en": "Senior Back-end Software Engineer",
