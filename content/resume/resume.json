@@ -33,7 +33,7 @@
             "type": "link",
             "link": "https://github.com/cronnosli/",
             "i18n": {
-                "en": "Github",
+                "en": "GitHub",
                 "pt-br": "Github"
             }
         },
@@ -114,10 +114,11 @@
     "short-experience": [       
         {
           "start": "2022",
+          "end": "2023",
           "company": "CheeseCake Labs",
           "i18n": {
-            "en": "Tech lead Enginnering",
-            "pt-br": "Tech lead Enginnering"
+            "en": "Tech lead Engineering | Software architect",
+            "pt-br": "Tech lead Engineering | Arquiteto de software"
           },
           "description": [
               {
