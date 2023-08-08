@@ -13,6 +13,14 @@
     padding: 0;
 }
 
+.cover-img-face {
+    border: 0 !important;
+    border: 0 !important;
+    box-shadow: none;  
+    padding: 0;
+    max-width: 30%;
+}
+
 .row {
     --bs-gutter-x: 0rem;
     --bs-gutter-y: 0;
@@ -43,6 +51,10 @@ body {
 
 .fw-bolder {
     font-weight: bolder !important;
+}
+
+.italic {
+    font-style: italic !important;
 }
 
 .bg-success-aqua {
@@ -167,5 +179,47 @@ body {
     .hide-sm {
         display: none;
         visibility: hidden;
+    }
+}
+
+@media print {
+    @page {
+        margin: 0;
+    }
+    .img-face {
+        max-width: 50% !important;
+    }
+    .cover-img-face {
+        max-width: 30% !important;
+    }
+    .col-md-3 {
+        flex: 0 0 auto;
+        display: flex;
+        -webkit-display: flex;
+        -moz-display: flex;
+        -ms--display: flex;
+        max-width: 30% !important;
+    }
+    .col-md-12 {
+        flex: 0 0 auto;
+        display: flex;
+        -webkit-display: flex;
+        -moz-display: flex;
+        -ms--display: flex;
+        max-width: 30% !important;
+    }.cover-img-face {
+        max-width: 30% !important;
+    }
+    .col-md-3 {
+        flex: 0 0 auto;
+        max-width: 30% !important;
+    }
+    .col-md-8 {
+        flex: 0 0 auto;
+        max-width: 70% !important;
+    }
+    .container {        
+        padding: 2em 2em 2em 2em !important;
+        max-width: 100% !important;
     }
 }

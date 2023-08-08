@@ -111,54 +111,60 @@
             }
         }
     ],
-    "short-experience": [       
+    "short-experience": [
         {
-          "start": "2022",
-          "end": "2023",
-          "company": "CheeseCake Labs",
-          "i18n": {
-            "en": "Tech lead Engineering | Software architect",
-            "pt-br": "Tech lead Engineering | Arquiteto de software"
-          },
-          "description": [
-              {
-                  "i18n": {
-                      "en": "Technical leadership for mobile and web projects",
-                      "pt-br": "Liderança técnica para projetos mobile e web"
-                  }
-              },
-              {
-                  "i18n": {
-                      "en": "Responsible for ensure the quality and delivery of the projects",
-                      "pt-br": "Responsável por garantir a qualidade e entrega dos projetos"
-                  }
-              },
-              {
-                  "i18n": {
-                      "en": "Carrer management",
-                      "pt-br": "Gestão de carreira"
-                  }
-              },
-              {
-                  "i18n": {
-                      "en": "Ensure best software architecture and best patterns",
-                      "pt-br": "Garantir a melhor arquitetura e padrões de software"
-                  }
-              },
-              {
-                  "i18n": {
-                      "en": "Task and issue management",
-                      "pt-br": "Gestão de tarefas e issues"
-                  }
-              },
-              {
-                  "i18n": {
-                      "en": "Ensure the best practices of the company",
-                      "pt-br": "Garantir as melhores práticas da empresa"
-                  }
-              }
+            "start": "2022",
+            "end": "2023",
+            "company": "CheeseCake Labs",
+            "i18n": {
+                "en": "Tech lead Engineering | Software architect",
+                "pt-br": "Tech lead Engineering | Arquiteto de software"
+            },
+            "description": [
+                {
+                    "i18n": {
+                        "en": "Skills: Typescript, Python, NodeJS, Flutter, GO, AWS, Docker, TDD, CI/CD",
+                        "pt-br": "Habilidades: Typescript, Python, NodeJS, Flutter, GO, AWS, Docker, TDD, CI/CD"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Technical leadership for mobile and web projects",
+                        "pt-br": "Liderança técnica para projetos mobile e web"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Responsible for ensure the quality and delivery of the projects",
+                        "pt-br": "Responsável por garantir a qualidade e entrega dos projetos"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Carrer management",
+                        "pt-br": "Gestão de carreira"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Ensure best software architecture and best patterns",
+                        "pt-br": "Garantir a melhor arquitetura e padrões de software"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Task and issue management",
+                        "pt-br": "Gestão de tarefas e issues"
+                    }
+                },
+                {
+                    "i18n": {
+                        "en": "Ensure the best practices of the company",
+                        "pt-br": "Garantir as melhores práticas da empresa"
+                    }
+                }
             ]
-        }, 
+        },
         {
             "start": "2021",
             "end": "2022",
@@ -168,6 +174,12 @@
                 "pt-br": "Engenheiro de Software Back-end Sênior"
             },
             "description": [
+                {
+                    "i18n": {
+                        "en": "Skills: Typescript, NodeJS, AWS, Docker, TDD, CI/CD",
+                        "pt-br": "Habilidades: Typescript, NodeJS, AWS, Docker, TDD, CI/CD"
+                    }
+                },
                 {
                     "i18n": {
                         "en": "Develop back-end software for payment systems",
@@ -201,7 +213,7 @@
                 {
                     "i18n": {
                         "en": "Tech lead for Consumer and  Client / Integration teams ",
-                        "pt-br": "Tech lead(liderança técnica) dos times de Consumidor e Cliente / Integrador"                    
+                        "pt-br": "Tech lead(liderança técnica) dos times de Consumidor e Cliente / Integrador"
                     }
                 }
             ]
@@ -215,6 +227,12 @@
                 "pt-br": "Engenheiro de Software Embarcado Sênior"
             },
             "description": [
+                {
+                    "i18n": {
+                        "en": "Skills: C, C++, Typescript, Javascript, Python, NodeJS, CI/CD",
+                        "pt-br": "Habilidades: C, C++, Typescript, Javascript, Python, NodeJS, CI/CD"
+                    }
+                },
                 {
                     "i18n": {
                         "en": "Develop software solutions for IPTV/Set-top-box devices",
@@ -234,7 +252,7 @@
                     }
                 }
             ]
-        },        
+        },
         {
             "start": "2017",
             "company": "DMC Consultoria",
@@ -243,6 +261,12 @@
                 "pt-br": "Engenheiro de Software Sênior / Consultor na área de Técnologia"
             },
             "description": [
+                {
+                    "i18n": {
+                        "en": "Skills: C, C++, Javascript, Python, Typescript, NodeJS, AWS, Docker, CI/CD",
+                        "pt-br": "Habilidades: C, C++, Javascript, Python, Typescript, NodeJS, AWS, Docker, CI/CD"
+                    }
+                },
                 {
                     "i18n": {
                         "en": "Develop solutions for testing hardware devices",
@@ -264,7 +288,7 @@
             ]
         }
     ],
-    "complete-experience": [        
+    "complete-experience": [
         {
             "start": "2018",
             "end": "2019",
@@ -274,6 +298,12 @@
                 "pt-br": "Engenheiro de Software Back-end Sênior"
             },
             "description": [
+                {
+                    "i18n": {
+                        "en": "Skills: C, C++, Typescript, Javascript, Python, NodeJS, CI/CD",
+                        "pt-br": "Habilidades: C, C++, Typescript, Javascript, Python, NodeJS, CI/CD"
+                    }
+                },
                 {
                     "i18n": {
                         "en": "Allocated to outsourced work at Telefonica Brasil",
@@ -297,6 +327,12 @@
                 "pt-br": "Engenheiro de Software C/C++ Sênior"
             },
             "description": [
+                {
+                    "i18n": {
+                        "en": "Skills: C, C++, Javascript, Python, Typescript, NodeJS, AWS, Docker, CI/CD",
+                        "pt-br": "Habilidades: C, C++, Javascript, Python, Typescript, NodeJS, AWS, Docker, CI/CD"
+                    }
+                },
                 {
                     "i18n": {
                         "en": "Design software prototypes",
@@ -334,6 +370,12 @@
             "description": [
                 {
                     "i18n": {
+                        "en": "Skills: C++, Javascript, Python, PHP",
+                        "pt-br": "Habilidades: C++, Javascript, Python, PHP"
+                    }
+                },
+                {
+                    "i18n": {
                         "en": "Develop software solutions for content indexing",
                         "pt-br": "Desenvolver soluções de software para indexação de conteúdo"
                     }
@@ -363,6 +405,12 @@
             "description": [
                 {
                     "i18n": {
+                        "en": "Skills: C++, Javascript, Python, PHP",
+                        "pt-br": "Habilidades: C++, Javascript, Python, PHP"
+                    }
+                },
+                {
+                    "i18n": {
                         "en": "Develop API's",
                         "pt-br": "Desenvolver API's"
                     }
@@ -384,6 +432,12 @@
                 "pt-br": "Analista de Suporte a sistemas"
             },
             "description": [
+                {
+                    "i18n": {
+                        "en": "Skills: Bash, Javascript, Python",
+                        "pt-br": "Habilidades: Bash, Javascript, Python"
+                    }
+                },
                 {
                     "i18n": {
                         "en": "Allocated to outsourced work at HSBC GLT",
@@ -427,6 +481,12 @@
             "description": [
                 {
                     "i18n": {
+                        "en": "Skills: C++, Javascript, PHP",
+                        "pt-br": "Habilidades: C++, Javascript, PHP"
+                    }
+                },
+                {
+                    "i18n": {
                         "en": "Develop API's",
                         "pt-br": "Desenvolver API's"
                     }
@@ -460,13 +520,15 @@
                 "pt-br": "C++"
             },
             "skill": "100"
-        },{
+        },
+        {
             "i18n": {
                 "en": "Javascript",
                 "pt-br": "Javascript"
             },
             "skill": "90"
-        },{
+        },
+        {
             "i18n": {
                 "en": "python",
                 "pt-br": "python"
@@ -488,7 +550,8 @@
                 "pt-br": "Back-end"
             },
             "skill": "100"
-        },{
+        },
+        {
             "i18n": {
                 "en": "Cloud",
                 "pt-br": "Cloud"
@@ -523,6 +586,5 @@
             },
             "skill": "100"
         }
-
     ]
 }

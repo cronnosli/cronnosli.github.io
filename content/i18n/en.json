@@ -2,6 +2,7 @@
     "title": "Resume",
     "menu": {
         "resume": "Resume",
+        "letter": "Cover letter",
         "language": "Language",
         "english": "English",
         "portuguese": "Portuguese"
@@ -26,6 +27,9 @@
     },
     "date": {
         "currently": "currently"
+    },
+    "greetings": {
+        "sincerely": "Sincerely,"
     }
 
 }

@@ -2,6 +2,7 @@
     "title": "Currículo",
     "menu": {
         "resume": "Currículo",
+        "letter": "Carta de Apresentação",
         "language": "Tradução",
         "english": "Inglês",
         "portuguese": "Português"
@@ -26,5 +27,8 @@
     },
     "date": {
         "currently": "Atualmente"
+    },
+    "greetings": {
+        "sincerely": "Atenciosamente,"
     }
 }

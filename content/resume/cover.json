@@ -1,0 +1,92 @@
+{
+    "i18n": {
+        "en": {
+            "header": {
+                "name": "douglas cordeiro",
+                "short-name": "douglas",
+                "signature": "Douglas Cordeiro"
+            }            
+        },
+        "pt-br": {
+            "header": {
+                "name": "douglas cordeiro",
+                "short-name": "douglas",
+                "signature": "Douglas Cordeiro"
+            }
+        }
+    },
+    "contact": [
+        {
+            "type": "text",
+            "i18n": {
+                "en": "Phone: +55 41 99631 9109",
+                "pt-br": "Telefone: 41 99631 9109"
+            }
+        },
+        {
+            "type": "link",
+            "link": "https://www.linkedin.com/in/douglasmcordeiro/",
+            "i18n": {
+                "en": "LinkedIn",
+                "pt-br": "LinkedIn"
+            }
+        },
+        {
+            "type": "link",
+            "link": "https://github.com/cronnosli/",
+            "i18n": {
+                "en": "GitHub",
+                "pt-br": "Github"
+            }
+        },
+        {
+            "type": "link",
+            "link": "https://cronnosli.github.io/",
+            "i18n": {
+                "en": "Online resume",
+                "pt-br": "Currículo"
+            }
+        },
+        {
+            "type": "link",
+            "link": "mailto:douglas.m.cordeiro.1984@gmail.com",
+            "i18n": {
+                "en": "Email",
+                "pt-br": "E-mail"
+            }
+        },
+        {
+            "type": "text",
+            "i18n": {
+                "en": "Curitiba, Paraná, Brazil",
+                "pt-br": "Curitiba - Paraná"
+            }
+        }
+    ],
+    "letter": [
+        {
+            "i18n": {
+                "en": "Dear Hiring Manager,",
+                "pt-br": "Prezado gestor da vaga,"
+            }
+        },
+        {
+            "i18n": {
+                "en": "As a seasoned Senior Software Engineer with over 15 years of experience and a deep technical skill set in languages such as C/C++, Python, and Javascript/Typescript, I am writing to express my interest in this position at your company. My extensive experience in software development, software architecture, and embedded systems, coupled with a proven track record of project delivery and technical leadership, make me an ideal candidate for this role.",
+                "pt-br": "Como um experiente Engenheiro de Software Sênior com mais de 15 anos de experiência e um amplo conhecimento técnico em linguagens como C/C++, Python e Javascript/Typescript, estou escrevendo para expressar meu interesse nesta posição em sua empresa. Minha vasta experiência em desenvolvimento de software, arquitetura de software e sistemas embarcados, aliada a um histórico comprovado de entrega de projetos e liderança técnica, fazem de mim o candidato ideal para este papel."
+            }
+        },
+        {
+            "i18n": {
+                "en": "Throughout my career, I've honed my abilities in various areas of software engineering. At Cheesecake Labs, I served as a Tech Lead and Software Architect, where I was responsible for ensuring the quality and timely delivery of web, backend, mobile, and blockchain projects. Prior to that, at Payface, I specialized in back-end software for payment systems, API design, and fostering an agile culture. My ability to perform technical analysis of demands and lead integration teams contributed significantly to the company's success. I take pride in my problem-solving skills, a trait that has been amplified due to my diverse experience across the industry. Whether it's designing and planning architectural solutions or managing tasks and issues to streamline processes, I have always endeavored to provide efficient and effective solutions.",
+                "pt-br": "Ao longo da minha carreira, aprimorei minhas habilidades em várias áreas da engenharia de software. Na Cheesecake Labs, atuei como Líder Técnico e Arquiteto de Software, onde fui responsável por garantir a qualidade e a entrega pontual de projetos web, backend, mobile e blockchain. Antes disso, na Payface, me especializei em software back-end para sistemas de pagamento, design de API e na promoção da cultura ágil. Minha habilidade para realizar análises técnicas de demandas e liderar equipes de integração contribuiu significativamente para o sucesso da empresa. Orgulho-me das minhas habilidades de resolução de problemas, um traço que foi amplificado devido à minha diversa experiência em todo o setor. Quer seja na concepção e planejamento de soluções arquitetônicas ou na gestão de tarefas e problemas para otimizar processos, sempre me esforcei para fornecer soluções eficientes e eficazes."
+            }
+        },
+        {
+            "i18n": {
+                "en": "Enclosed, please find my resume detailing my extensive work experience, technical skills, and qualifications. I am eager to contribute my abilities and learn more about the opportunities. Thank you for considering my application. I look forward to the possibility of discussing the position in more detail. Please don't hesitate to contact me at your earliest convenience.",
+                "pt-br": "Anexo, por favor, encontre meu currículo detalhando minha extensa experiência de trabalho, habilidades técnicas e qualificações. Estou ansioso para contribuir com minhas habilidades e aprender mais sobre as oportunidades. Agradeço por considerar minha candidatura. Aguardo a possibilidade de discutir a posição em mais detalhes. Por favor, não hesite em entrar em contato comigo quando for conveniente para você."
+            }
+        }
+    ]
+}
