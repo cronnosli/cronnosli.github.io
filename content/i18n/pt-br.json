@@ -5,11 +5,12 @@
         "letter": "Carta de Apresentação",
         "language": "Tradução",
         "english": "Inglês",
-        "portuguese": "Português"
+        "portuguese": "Português",
+        "download-pdf": "Baixar PDF"
     },
     "profession": {
         "title": "Engenheiro de Software Sênior",
-        "description": "Experiente engenheiro de software com mais de 15 anos de experiência em C/C++, PHP, Python, Javascript, entre outras linguagens. Altamente experiente em arquitetura de software, CI/CD, controle de versões, arquitetura em nuvem, APIs, sistemas embarcados, sistemas web, back-end, metodologias ágeis, sistemas distribuidos, IOT, banco de dados SQL e NoSQL"
+        "description": "Engenheiro de software experiente com mais de 15 anos de profunda experiência em tecnologias como C/C++, PHP, Python e Javascript. Acredito firmemente na importância de testes robustos, integrando consistentemente o Desenvolvimento Orientado a Testes (TDD) ao meu fluxo de trabalho para garantir a confiabilidade e manutenibilidade do software. Meu compromisso com código limpo, princípios SOLID e arquitetura limpa fundamenta cada projeto que realizo, assegurando longevidade e escalabilidade. Com um vasto histórico em arquitetura de software, pipelines CI/CD, integrações em nuvem e design de API, entreguei soluções resilientes em sistemas embarcados, plataformas web e arquiteturas de backend.  Ao longo da minha carreira, defendi as melhores práticas, garantindo que tanto a arquitetura de código quanto de sistema sejam não apenas eficientes, mas também resistam a testes rigorosos."
     },
     "footer": {
         "cookies-warning": "Este site utiliza cookies para proporcionar a funcionalidade necessária e aprimorar sua experiência de navegação. Ao continuar a navegar pelo site, você concorda com a utilização de cookies.",
@@ -18,15 +19,17 @@
     "side": {
         "contact": "Contato",
         "education": "Educação",
-        "references": "Referências"
+        "references": "Referências",
+        "languages": "Idiomas"
     },
     "experience": {
-        "recent": "EXPERIÊNCIAS DE TRABALHO recentes",
-        "complete": "EXPERIÊNCIAS DE TRABALHO",
-        "skills": "HABILIDADES E ESPECIALIDADES"
+        "recent": "EXPERIÊNCIAS DE TRABALHO",
+        "skills": "ESPECIALIDADES",
+        "technologies": "tecnologias: "
     },
     "date": {
-        "currently": "Atualmente"
+        "currently": "Atualmente",
+        "year": "ano"
     },
     "greetings": {
         "sincerely": "Atenciosamente,"

@@ -11,10 +11,21 @@ let i18n = new I18nTranslator({
     filesLocation: '/content/i18n',
 });
 
-resume.build().then(() => {
-    i18n.fetch(['pt-br', 'en']).then(() => {
-        i18n.translatePageTo(userSelectedLanguage === null ? 'en' : userSelectedLanguage);
-    })
+await resume.build();
+await i18n.fetch(['pt-br', 'en']);
+await i18n.translatePageTo(userSelectedLanguage === null ? 'en' : userSelectedLanguage);
+
+
+async function generatePDF() {
+    const pdfContentEl = document.getElementById('pdf-content');
+
+const doc = new jsPDF();
+
+    await doc.html(pdfContentEl.innerHTML).save('test.pdf');    
+}
+
+document.getElementById('download').addEventListener('click', function () {
+    generatePDF();
 });
 
 const cookies = new CookiesWarning();

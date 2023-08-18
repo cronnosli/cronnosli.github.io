@@ -91,6 +91,16 @@ body {
     bottom: 23px;
 }
 
+.separator-bar-experience {
+    min-height: 3px !important;
+    height: 3px !important;
+    max-height: 3px !important;
+    position: relative !important;
+    bottom: 23px;
+    border-top: 3px dashed #000; /* this makes it a dashed line */
+    background: none !important; /* remove any background color */
+}
+
 .fs-1 {
     font-size: 3.5rem !important;
 }
@@ -110,7 +120,7 @@ body {
 
 .progress {
     display: flex;
-    height: 1rem;
+    height: 1.5rem;
     overflow: hidden;
     font-size: 0.75rem;
     background-color: #424242;
@@ -181,7 +191,7 @@ body {
         visibility: hidden;
     }
 }
-
+/*
 @media print {
     @page {
         margin: 0;
@@ -223,3 +233,4 @@ body {
         max-width: 100% !important;
     }
 }
+*/
