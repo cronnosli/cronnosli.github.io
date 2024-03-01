@@ -113,6 +113,52 @@
     ],
     "experience": [
         {
+    "start": "2023",
+    "company": "Jusfy",
+    "i18n": {
+        "en": "Technical Lead",
+        "pt-br": "Líder Técnico"
+    },
+    "context": {
+        "i18n": {
+            "en": "In my role as Technical Lead at Jusfy, a remote position, I've been leading the Core Experience and Growth teams with a focus on technical leadership, team management, and ensuring the delivery of high-quality projects. My responsibilities include overseeing the architecture and ensuring the application of best practices and patterns in our software development process, mainly using NodeJS, ReactJS, PostgreSQL, AWS, and TypeScript. I'm tasked with managing tasks and issues, thereby guaranteeing the optimal quality and timely delivery of projects.",
+            "pt-br": "No meu papel como Líder Técnico na Jusfy, uma posição remota, tenho liderado os times de Core Experience e Growth com foco em liderança técnica, gerenciamento de equipe e garantia da entrega de projetos de alta qualidade. Minhas responsabilidades incluem supervisionar a arquitetura e garantir a aplicação das melhores práticas e padrões em nosso processo de desenvolvimento de software, utilizando principalmente NodeJS, ReactJS, PostgreSQL, AWS e TypeScript. Sou encarregado de gerenciar tarefas e problemas, garantindo assim a qualidade ótima e entrega pontual dos projetos."
+        }
+    },
+    "technologies": {
+        "i18n": {
+            "en": "NodeJS, ReactJS, PostgreSQL, AWS, TypeScript",
+            "pt-br": "NodeJS, ReactJS, PostgreSQL, AWS, TypeScript"
+        }
+    },
+    "description": [
+        {
+            "i18n": {
+                "en": "Technical leadership for the Core Experience and Growth teams",
+                "pt-br": "Liderança técnica para os times de Core Experience e Growth"
+            }
+        },
+        {
+            "i18n": {
+                "en": "Team management and ensuring the quality and delivery of projects",
+                "pt-br": "Gerenciamento de equipe e garantia da qualidade e entrega dos projetos"
+            }
+        },
+        {
+            "i18n": {
+                "en": "Oversee software architecture and apply best practices and patterns",
+                "pt-br": "Supervisionar a arquitetura de software e aplicar as melhores práticas e padrões"
+            }
+        },
+        {
+            "i18n": {
+                "en": "Task and issue management to ensure timely project delivery",
+                "pt-br": "Gestão de tarefas e problemas para garantir a entrega pontual dos projetos"
+            }
+        }
+    ]
+},
+        {
             "start": "2022",
             "end": "2023",
             "company": "CheeseCake Labs",
