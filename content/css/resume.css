@@ -3,7 +3,7 @@
 }
 
 .bg-dark {
-    background-color: rgb(38, 38, 38) !important;
+    background-color: rgb(33, 33, 33) !important;
 }
 
 .img-face {
@@ -16,7 +16,7 @@
 .cover-img-face {
     border: 0 !important;
     border: 0 !important;
-    box-shadow: none;  
+    box-shadow: none;
     padding: 0;
     max-width: 30%;
 }
@@ -97,8 +97,10 @@ body {
     max-height: 3px !important;
     position: relative !important;
     bottom: 23px;
-    border-top: 3px dashed #000; /* this makes it a dashed line */
-    background: none !important; /* remove any background color */
+    border-top: 3px dashed #000;
+    /* this makes it a dashed line */
+    background: none !important;
+    /* remove any background color */
 }
 
 .fs-1 {
@@ -143,6 +145,7 @@ body {
     .fs-1 {
         font-size: 1.9rem !important;
     }
+
     .fs-3 {
         font-size: 1.7rem !important;
     }
@@ -158,6 +161,7 @@ body {
     .fs-1 {
         font-size: 1.7rem !important;
     }
+
     .fs-3 {
         font-size: 1.5rem !important;
     }
@@ -167,6 +171,7 @@ body {
     .fs-1 {
         font-size: 1.5rem !important;
     }
+
     .fs-3 {
         font-size: 1.3rem !important;
     }
@@ -176,6 +181,7 @@ body {
     .fs-1 {
         font-size: 1.3rem !important;
     }
+
     .fs-3 {
         font-size: 1.1rem !important;
     }
@@ -191,6 +197,7 @@ body {
         visibility: hidden;
     }
 }
+
 /*
 @media print {
     @page {

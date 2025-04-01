@@ -1,746 +1,794 @@
 {
-    "i18n": {
-        "en": {
-            "header": {
-                "name": "douglas menegon cordeiro",
-                "short-name": "douglas"
-            }
-        },
-        "pt-br": {
-            "header": {
-                "name": "douglas menegon cordeiro",
-                "short-name": "douglas"
-            }
-        }
+  "i18n": {
+    "en": {
+      "header": {
+        "name": "douglas menegon cordeiro",
+        "short-name": "douglas"
+      }
     },
-    "contact": [
-        {
-            "type": "text",
-            "i18n": {
-                "en": "Phone: +55 41 99631 9109",
-                "pt-br": "Telefone: +55 41 99631 9109"
-            }
-        },
-        {
-            "type": "link",
-            "link": "https://www.linkedin.com/in/douglasmcordeiro/",
-            "i18n": {
-                "en": "LinkedIn",
-                "pt-br": "LinkedIn"
-            }
-        },
-        {
-            "type": "link",
-            "link": "https://github.com/cronnosli/",
-            "i18n": {
-                "en": "GitHub",
-                "pt-br": "Github"
-            }
-        },
-        {
-            "type": "link",
-            "link": "https://cronnosli.github.io/",
-            "i18n": {
-                "en": "Site",
-                "pt-br": "Site"
-            }
-        },
-        {
-            "type": "link",
-            "link": "mailto:douglas.m.cordeiro.1984@gmail.com",
-            "i18n": {
-                "en": "Email",
-                "pt-br": "E-mail"
-            }
+    "pt-br": {
+      "header": {
+        "name": "douglas menegon cordeiro",
+        "short-name": "douglas"
+      }
+    }
+  },
+  "contact": [
+    {
+      "type": "text",
+      "i18n": {
+        "en": "Phone: +55 41 99631 9109",
+        "pt-br": "Telefone: +55 41 99631 9109"
+      }
+    },
+    {
+      "type": "link",
+      "link": "https://www.linkedin.com/in/douglasmcordeiro/",
+      "i18n": {
+        "en": "LinkedIn",
+        "pt-br": "LinkedIn"
+      }
+    },
+    {
+      "type": "link",
+      "link": "https://github.com/cronnosli/",
+      "i18n": {
+        "en": "GitHub",
+        "pt-br": "Github"
+      }
+    },
+    {
+      "type": "link",
+      "link": "https://cronnosli.github.io/",
+      "i18n": {
+        "en": "Site",
+        "pt-br": "Site"
+      }
+    },
+    {
+      "type": "link",
+      "link": "mailto:douglas.m.cordeiro.1984@gmail.com",
+      "i18n": {
+        "en": "Email",
+        "pt-br": "E-mail"
+      }
+    }
+  ],
+  "education": [
+    {
+      "start": "2001",
+      "end": "2004",
+      "institution": "UNIUBE",
+      "i18n": {
+        "en": "Computer Engineering",
+        "pt-br": "engenharia da computação"
+      }
+    },
+    {
+      "start": "2015",
+      "end": "2017",
+      "institution": "Unicesumar",
+      "i18n": {
+        "en": "information technology management",
+        "pt-br": "gestão da tecnologia da informação"
+      }
+    }
+  ],
+  "reference": [
+    {
+      "name": "Higino Santos",
+      "company": "Telefonica Brasil",
+      "contact": "+55 41 98739 4857",
+      "i18n": {
+        "en": "Software Development Manager",
+        "pt-br": "Gerente de Desenvolvimento de sistemas"
+      }
+    },
+    {
+      "name": "Luiz Cezar",
+      "contact": "+55 41 99801 7884",
+      "i18n": {
+        "en": "Consultant",
+        "pt-br": "Consultor"
+      }
+    },
+    {
+      "name": "Wellison Straiotto",
+      "company": "Stratec",
+      "contact": "+55 41 99929 7074",
+      "i18n": {
+        "en": "Owner",
+        "pt-br": "Sócio"
+      }
+    },
+    {
+      "name": "Bruna Adriano",
+      "company": "Payface",
+      "contact": "+55 48 99631 0009",
+      "i18n": {
+        "en": "Head of People",
+        "pt-br": "Head of People"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "start": "2025",
+      "company": "Jusfy",
+      "i18n": {
+        "en": "Staff Software Engineer – Platform/Architecture & Payments",
+        "pt-br": "Staff Software Engineer – Plataforma/Arquitetura e Pagamentos"
+      },
+      "context": {
+        "i18n": {
+          "en": "At Jusfy, I lead platform and payment architecture efforts to build scalable, resilient, and secure systems. Responsible for architectural decisions, performance optimization, and enforcing engineering principles such as Clean Code, SOLID, and TDD. Collaborate with cross-functional teams to align technology with business goals while ensuring security, observability, and high availability across services.",
+          "pt-br": "Na Jusfy, lidero iniciativas de arquitetura de plataforma e pagamentos para construir sistemas escaláveis, resilientes e seguros. Responsável por decisões arquiteturais, otimização de performance e aplicação de princípios como Clean Code, SOLID e TDD. Colaboro com times multifuncionais para alinhar tecnologia aos objetivos de negócio, garantindo segurança, observabilidade e alta disponibilidade dos serviços."
         }
-    ],
-    "education": [
-        {
-            "start": "2001",
-            "end": "2004",
-            "institution": "UNIUBE",
-            "i18n": {
-                "en": "Computer Engineering",
-                "pt-br": "engenharia da computação"
-            }
-        },
-        {
-            "start": "2015",
-            "end": "2017",
-            "institution": "Unicesumar",
-            "i18n": {
-                "en": "information technology management",
-                "pt-br": "gestão da tecnologia da informação"
-            }
+      },
+      "technologies": {
+        "i18n": {
+          "en": "NodeJS, ReactJS, PostgreSQL, AWS, TypeScript, Kubernetes, Stripe",
+          "pt-br": "NodeJS, ReactJS, PostgreSQL, AWS, TypeScript, Kubernetes, Stripe"
         }
-    ],
-    "reference": [
+      },
+      "description": [
         {
-            "name": "Higino Santos",
-            "company": "Telefonica Brasil",
-            "contact": "+55 41 98739 4857",
-            "i18n": {
-                "en": "Software Development Manager",
-                "pt-br": "Gerente de Desenvolvimento de sistemas"
-            }
+          "i18n": {
+            "en": "Lead and design scalable and high-performance architectures",
+            "pt-br": "Liderar e projetar arquiteturas escaláveis e de alta performance"
+          }
         },
         {
-            "name": "Luiz Cezar",
-            "contact": "+55 41 99801 7884",
-            "i18n": {
-                "en": "Consultant",
-                "pt-br": "Consultor"
-            }
+          "i18n": {
+            "en": "Ensure security, observability and performance across services",
+            "pt-br": "Garantir segurança, observabilidade e performance entre os serviços"
+          }
         },
         {
-            "name": "Wellison Straiotto",
-            "company": "Stratec",
-            "contact": "+55 41 99929 7074",
-            "i18n": {
-                "en": "Owner",
-                "pt-br": "Sócio"
-            }
+          "i18n": {
+            "en": "Architect and implement robust payment systems (Stripe, subscriptions, invoicing, fraud prevention)",
+            "pt-br": "Arquitetar e implementar sistemas de pagamento robustos (Stripe, assinaturas, faturamento, prevenção a fraudes)"
+          }
         },
         {
-            "name": "Bruna Adriano",
-            "company": "Payface",
-            "contact": "+55 48 99631 0009",
-            "i18n": {
-                "en": "Head of People",
-                "pt-br": "Head of People"
-            }
+          "i18n": {
+            "en": "Promote engineering best practices (Clean Code, SOLID, TDD)",
+            "pt-br": "Promover boas práticas de engenharia (Clean Code, SOLID, TDD)"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Mentor engineers and lead cross-functional collaboration",
+            "pt-br": "Mentorar engenheiros e liderar colaboração entre equipes"
+          }
         }
-    ],
-    "experience": [
-        {
-    "start": "2023",
-    "company": "Jusfy",
-    "i18n": {
+      ]
+    },
+    {
+      "start": "2023",
+      "end": "2025",
+      "company": "Jusfy",
+      "i18n": {
         "en": "Technical Lead",
         "pt-br": "Líder Técnico"
-    },
-    "context": {
+      },
+      "context": {
         "i18n": {
-            "en": "In my role as Technical Lead at Jusfy, a remote position, I've been leading the Core Experience and Growth teams with a focus on technical leadership, team management, and ensuring the delivery of high-quality projects. My responsibilities include overseeing the architecture and ensuring the application of best practices and patterns in our software development process, mainly using NodeJS, ReactJS, PostgreSQL, AWS, and TypeScript. I'm tasked with managing tasks and issues, thereby guaranteeing the optimal quality and timely delivery of projects.",
-            "pt-br": "No meu papel como Líder Técnico na Jusfy, uma posição remota, tenho liderado os times de Core Experience e Growth com foco em liderança técnica, gerenciamento de equipe e garantia da entrega de projetos de alta qualidade. Minhas responsabilidades incluem supervisionar a arquitetura e garantir a aplicação das melhores práticas e padrões em nosso processo de desenvolvimento de software, utilizando principalmente NodeJS, ReactJS, PostgreSQL, AWS e TypeScript. Sou encarregado de gerenciar tarefas e problemas, garantindo assim a qualidade ótima e entrega pontual dos projetos."
+          "en": "In my role as Technical Lead at Jusfy, a remote position, I've been leading the Core Experience and Growth teams with a focus on technical leadership, team management, and ensuring the delivery of high-quality projects. My responsibilities include overseeing the architecture and ensuring the application of best practices and patterns in our software development process, mainly using NodeJS, ReactJS, PostgreSQL, AWS, and TypeScript. I'm tasked with managing tasks and issues, thereby guaranteeing the optimal quality and timely delivery of projects.",
+          "pt-br": "No meu papel como Líder Técnico na Jusfy, uma posição remota, tenho liderado os times de Core Experience e Growth com foco em liderança técnica, gerenciamento de equipe e garantia da entrega de projetos de alta qualidade. Minhas responsabilidades incluem supervisionar a arquitetura e garantir a aplicação das melhores práticas e padrões em nosso processo de desenvolvimento de software, utilizando principalmente NodeJS, ReactJS, PostgreSQL, AWS e TypeScript. Sou encarregado de gerenciar tarefas e problemas, garantindo assim a qualidade ótima e entrega pontual dos projetos."
         }
-    },
-    "technologies": {
+      },
+      "technologies": {
         "i18n": {
-            "en": "NodeJS, ReactJS, PostgreSQL, AWS, TypeScript",
-            "pt-br": "NodeJS, ReactJS, PostgreSQL, AWS, TypeScript"
+          "en": "NodeJS, ReactJS, PostgreSQL, AWS, TypeScript",
+          "pt-br": "NodeJS, ReactJS, PostgreSQL, AWS, TypeScript"
         }
+      },
+      "description": [
+        {
+          "i18n": {
+            "en": "Technical leadership for the Core Experience and Growth teams",
+            "pt-br": "Liderança técnica para os times de Core Experience e Growth"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Team management and ensuring the quality and delivery of projects",
+            "pt-br": "Gerenciamento de equipe e garantia da qualidade e entrega dos projetos"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Oversee software architecture and apply best practices and patterns",
+            "pt-br": "Supervisionar a arquitetura de software e aplicar as melhores práticas e padrões"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Task and issue management to ensure timely project delivery",
+            "pt-br": "Gestão de tarefas e problemas para garantir a entrega pontual dos projetos"
+          }
+        }
+      ]
     },
-    "description": [
-        {
-            "i18n": {
-                "en": "Technical leadership for the Core Experience and Growth teams",
-                "pt-br": "Liderança técnica para os times de Core Experience e Growth"
-            }
-        },
-        {
-            "i18n": {
-                "en": "Team management and ensuring the quality and delivery of projects",
-                "pt-br": "Gerenciamento de equipe e garantia da qualidade e entrega dos projetos"
-            }
-        },
-        {
-            "i18n": {
-                "en": "Oversee software architecture and apply best practices and patterns",
-                "pt-br": "Supervisionar a arquitetura de software e aplicar as melhores práticas e padrões"
-            }
-        },
-        {
-            "i18n": {
-                "en": "Task and issue management to ensure timely project delivery",
-                "pt-br": "Gestão de tarefas e problemas para garantir a entrega pontual dos projetos"
-            }
+    {
+      "start": "2022",
+      "end": "2023",
+      "company": "CheeseCake Labs",
+      "i18n": {
+        "en": "Tech lead Engineering | Software architect",
+        "pt-br": "Tech lead Engineering | Arquiteto de software"
+      },
+      "context": {
+        "i18n": {
+          "en": "As a Tech Lead Engineer and Software Architect, I spearheaded technical leadership for web and mobile projects, ensuring the timely delivery and unmatched quality of all developments. Skilled in a diverse set of technologies including TypeScript, Python, NodeJS, Flutter, GO, AWS, Docker, and more, I championed Test-Driven Development (TDD), streamlined CI/CD processes, and guaranteed the application of best practices across the board. In addition to my technical responsibilities, I took charge of career management, task and issue resolution, and continuously advocated for the most robust software architectures and patterns in alignment with the company's standards.",
+          "pt-br": "Como Líder Técnico e Arquiteto de Software, liderei a liderança técnica para projetos web e móveis, garantindo a entrega pontual e a qualidade incomparável de todos os desenvolvimentos. Habilidoso em um conjunto diversificado de tecnologias, incluindo TypeScript, Python, NodeJS, Flutter, GO, AWS, Docker e mais, defendi o Desenvolvimento Guiado por Testes (TDD), otimizei processos de CI/CD e garanti a aplicação das melhores práticas em geral. Além de minhas responsabilidades técnicas, assumi a gestão de carreira, resolução de tarefas e problemas, e continuamente advoguei pelas arquiteturas e padrões de software mais robustos, em alinhamento com os padrões da empresa."
         }
-    ]
-},
-        {
-            "start": "2022",
-            "end": "2023",
-            "company": "CheeseCake Labs",
-            "i18n": {
-                "en": "Tech lead Engineering | Software architect",
-                "pt-br": "Tech lead Engineering | Arquiteto de software"
-            },
-            "context": {
-                "i18n": {
-                    "en": "As a Tech Lead Engineer and Software Architect, I spearheaded technical leadership for web and mobile projects, ensuring the timely delivery and unmatched quality of all developments. Skilled in a diverse set of technologies including TypeScript, Python, NodeJS, Flutter, GO, AWS, Docker, and more, I championed Test-Driven Development (TDD), streamlined CI/CD processes, and guaranteed the application of best practices across the board. In addition to my technical responsibilities, I took charge of career management, task and issue resolution, and continuously advocated for the most robust software architectures and patterns in alignment with the company's standards.",
-                    "pt-br": "Como Líder Técnico e Arquiteto de Software, liderei a liderança técnica para projetos web e móveis, garantindo a entrega pontual e a qualidade incomparável de todos os desenvolvimentos. Habilidoso em um conjunto diversificado de tecnologias, incluindo TypeScript, Python, NodeJS, Flutter, GO, AWS, Docker e mais, defendi o Desenvolvimento Guiado por Testes (TDD), otimizei processos de CI/CD e garanti a aplicação das melhores práticas em geral. Além de minhas responsabilidades técnicas, assumi a gestão de carreira, resolução de tarefas e problemas, e continuamente advoguei pelas arquiteturas e padrões de software mais robustos, em alinhamento com os padrões da empresa."
-                }
-            },
-            "technologies": {
-                "i18n": {
-                    "en": "Typescript, Python, NodeJS, Flutter, GO, AWS, Docker, TDD, CI/CD",
-                    "pt-br": "Typescript, Python, NodeJS, Flutter, GO, AWS, Docker, TDD, CI/CD"
-                }
-            },
-            "description": [
-                {
-                    "i18n": {
-                        "en": "Technical leadership for mobile and web projects",
-                        "pt-br": "Liderança técnica para projetos mobile e web"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Responsible for ensure the quality and delivery of the projects",
-                        "pt-br": "Responsável por garantir a qualidade e entrega dos projetos"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Carrer management",
-                        "pt-br": "Gestão de carreira"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Ensure best software architecture and best patterns",
-                        "pt-br": "Garantir a melhor arquitetura e padrões de software"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Task and issue management",
-                        "pt-br": "Gestão de tarefas e issues"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Ensure the best practices of the company",
-                        "pt-br": "Garantir as melhores práticas da empresa"
-                    }
-                }
-            ]
-        },
-        {
-            "start": "2021",
-            "end": "2022",
-            "company": "Payface",
-            "i18n": {
-                "en": "Senior Back-end Software Engineer",
-                "pt-br": "Engenheiro de Software Back-end Sênior"
-            },
-            "context": {
-                "i18n": {
-                    "en": "As a Senior Back-end Software Engineer, I specialized in crafting high-performance software for payment systems using advanced technologies like TypeScript, NodeJS, AWS, and Docker. My role involved spearheading the design of APIs, leading the architecture planning, and performing in-depth technical analyses for various project demands, including roadmaps, internal tools, and refactoring initiatives. I championed the implementation of agile culture, ensuring streamlined workflows and timely deliveries. Additionally, I served as the technical lead for both the Consumer and Client/Integration teams, fostering collaboration and driving technical excellence across the board.",
-                    "pt-br": "Como Engenheiro de Software Sênior de Back-end, me especializei na criação de software de alta performance para sistemas de pagamento usando tecnologias avançadas como TypeScript, NodeJS, AWS e Docker. Minha função envolveu liderar o design de APIs, direcionar o planejamento da arquitetura e realizar análises técnicas aprofundadas para várias demandas do projeto, incluindo roadmaps, ferramentas internas e iniciativas de refatoração. Defendi a implementação da cultura ágil, assegurando fluxos de trabalho ágeis e entregas pontuais. Além disso, atuei como líder técnico tanto para as equipes de Consumidor quanto de Cliente/Integração, fomentando a colaboração e impulsionando a excelência técnica em todos os aspectos."
-                }
-            },
-            "technologies": {
-                "i18n": {
-                    "en": "Typescript, NodeJS, AWS, Docker, TDD, CI/CD",
-                    "pt-br": "Typescript, NodeJS, AWS, Docker, TDD, CI/CD"
-                }
-            },
-            "description": [
-                {
-                    "i18n": {
-                        "en": "Develop back-end software for payment systems",
-                        "pt-br": "Desenvolver software back-end para sistemas de pagamento"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "API's design",
-                        "pt-br": "Desenho de API's"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Implement agile culture",
-                        "pt-br": "Planejamento e treinamento de Agile(Scrum)"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Design and plan architecture solutions",
-                        "pt-br": "Desenhar e planejar arquitetura de soluções"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Technical analysis of demands (roadmap, internal tools, refactoring)",
-                        "pt-br": "Análise técnica de demandas(roadmap, ferramentas internas, refactoring)"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Tech lead for Consumer and  Client / Integration teams ",
-                        "pt-br": "Tech lead(liderança técnica) dos times de Consumidor e Cliente / Integrador"
-                    }
-                }
-            ]
-        },
-        {
-            "start": "2019",
-            "end": "2021",
-            "company": "Telefonica Brasil",
-            "i18n": {
-                "en": "Senior Embedded Software Engineer",
-                "pt-br": "Engenheiro de Software Embarcado Sênior"
-            },
-            "context": {
-                "i18n": {
-                    "en": "As a Senior Embedded Software Engineer, I excelled in developing sophisticated software solutions for IPTV/Set-top-box devices, leveraging my expertise to highlight of my tenure involved significant enhancements to the channel recording system, rectifying persisting issues and amplifying its efficiency. Furthermore, I spearheaded the development and ongoing maintenance of the Friendly User Test (FUT) software, which resulted in a substantial improvement, catching over 60% more bugs before transitioning to production, ensuring a higher-quality product release",
-                    "pt-br": "Como Engenheiro de Software Embarcado Sênior, destaquei-me no desenvolvimento de soluções de software sofisticadas para dispositivos IPTV/Set-top-box, utilizando minha expertise para efetuar melhorias significativas no sistema de gravação de canais, corrigindo problemas persistentes e aumentando sua eficiência. Além disso, liderei o desenvolvimento e a manutenção contínua do software de Teste de Usuário Amigável (FUT), resultando em uma melhoria substancial, capturando mais de 60% dos bugs antes da transição para a produção, garantindo um lançamento de produto de maior qualidade."
-                }
-            },
-            "technologies": {
-                "i18n": {
-                    "en": "C, C++, Typescript, Javascript, Python, NodeJS, CI/CD",
-                    "pt-br": "C, C++, Typescript, Javascript, Python, NodeJS, CI/CD"
-                }
-            },
-            "description": [
-                {
-                    "i18n": {
-                        "en": "Develop software solutions for IPTV/Set-top-box devices",
-                        "pt-br": "Desenvolver soluções de software para dispositivos IPTV / decodificadores"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Fix and improve the channel recording system",
-                        "pt-br": "Melhorar o sistema de gravação de canais"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Develop and maintain FUT(Friendly User Test) software improving bug detection over 60% before production",
-                        "pt-br": "Desenvolver e manter o software FUT (Teste de Usuário Amigável) melhorando a detecção de bug em 60% antes da implantação em produção"
-                    }
-                }
-            ]
-        },
-        {
-            "start": "2017",
-            "company": "DMC Consultoria",
-            "i18n": {
-                "en": "Senior Software Engineer / Technology Consultant",
-                "pt-br": "Engenheiro de Software Sênior / Consultor na área de Técnologia"
-            },
-            "context": {
-                "i18n": {
-                    "en": "As a liberal professional and consultant, I specialize in the design and development of state-of-the-art test equipment tailored for the industrial sector. My expertise lies in creating electronic jigs for cable and board/product testing, utilizing embedded Linux combined with a suite of technologies including C, C++, Javascript, Python, Typescript, NodeJS, among others. Those projects are dedicated to crafting both hardware and software solutions that address industry-specific challenges. Beyond product development, I offer technology and IT process consultation, ensuring that our solutions not only address immediate needs but also streamline operational workflows. My commitment is to deliver precision, efficiency, and innovation in every project, balancing entrepreneurial agility with quality.",
-                    "pt-br": "Como profissional liberal e consultor, especializo-me no design e desenvolvimento de equipamentos de teste de última geração adaptados para o setor industrial. Minha expertise reside na criação de dispositivos eletrônicos para testes de cabos e placas/produtos, utilizando Linux embarcado combinado com um conjunto de tecnologias incluindo C, C++, Javascript, Python, TypeScript, NodeJS, entre outros. Esses projetos são dedicados a elaborar soluções de hardware e software que atendem aos desafios específicos da indústria. Além do desenvolvimento de produtos, ofereço consultoria em tecnologia e processos de TI, garantindo que nossas soluções atendam não apenas às necessidades imediatas, mas também otimizem os fluxos de trabalho operacionais. Meu compromisso é entregar precisão, eficiência e inovação em cada projeto, equilibrando agilidade empreendedora com qualidade."
-                }
-            },
-            "technologies": {
-                "i18n": {
-                    "en": "C, C++, Javascript, Python, Typescript, NodeJS, AWS, Docker, CI/CD",
-                    "pt-br": "C, C++, Javascript, Python, Typescript, NodeJS, AWS, Docker, CI/CD"
-                }
-            },
-            "description": [
-                {
-                    "i18n": {
-                        "en": "Develop solutions for testing hardware devices",
-                        "pt-br": "Desenvolver soluções para testar dispositivos de hardware"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Criar soluções de hardware e software",
-                        "pt-br": "Create hardware and software solutions"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Solve Tech and IT process",
-                        "pt-br": "Soluções em Técnologia e processos de T.I."
-                    }
-                }
-            ]
-        },
-        {
-            "start": "2018",
-            "end": "2019",
-            "company": "Deal",
-            "i18n": {
-                "en": "Senior Back-end Software Engineer",
-                "pt-br": "Engenheiro de Software Back-end Sênior"
-            },
-            "context": {
-                "i18n": {
-                    "en": "As a Senior Back-end Software Engineer, I was assigned to outsourced projects at Telefonica Brasil. Leveraging my expertise specialized in creating robust software solutions for IPTV/Set-top-box devices. My involvement ensured the seamless integration and optimization of these systems, with a focus on efficiency and performance. In addition, my knowledge of CI/CD further streamlined the development process, emphasizing consistent and high-quality product deliveries.",
-                    "pt-br": "Como Engenheiro de Software Sênior de Back-end, fui designado para projetos terceirizados na Telefonica Brasil. Utilizando minha expertise, especializei-me na criação de soluções de software robustas para dispositivos IPTV/Set-top-box. Minha participação garantiu a integração e otimização contínuas desses sistemas, com foco em eficiência e desempenho. Além disso, meu conhecimento em CI/CD aprimorou ainda mais o processo de desenvolvimento, enfatizando entregas de produtos consistentes e de alta qualidade."
-                }
-            },
-            "technologies": {
-                "i18n": {
-                    "en": "C, C++, Typescript, Javascript, Python, NodeJS, CI/CD",
-                    "pt-br": "C, C++, Typescript, Javascript, Python, NodeJS, CI/CD"
-                }
-            },
-            "description": [
-                {
-                    "i18n": {
-                        "en": "Allocated to outsourced work at Telefonica Brasil",
-                        "pt-br": "Alocado para trabalho tercerizado na Telefonica Brasil"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Develop software solutions for IPTV/Set-top-box devices",
-                        "pt-br": "Desenvolver soluções de software para dispositivos IPTV / decodificadores"
-                    }
-                }
-            ]
-        },
-        {
-            "start": "2016",
-            "end": "2018",
-            "company": "Grupo ABL",
-            "i18n": {
-                "en": "Senior C/C++ Software Engineer",
-                "pt-br": "Engenheiro de Software C/C++ Sênior"
-            },
-            "context": {
-                "i18n": {
-                    "en": "As a Senior C/C++ Software Engineer in the P&D sector, I was instrumental in innovating and shaping the future of our product offerings. Drawing from my expertise I took the lead in designing both software and electronic prototypes tailored to evolving market demands. My work primarily revolved around the conceptualization and development of cutting-edge self-service and payment equipment. Beyond hands-on development, I served as the technical beacon for the development and architecture team, ensuring our prototypes were not just viable but industry-leading in design and functionality.",
-                    "pt-br": "Como Engenheiro de Software Sênior C/C++ no setor de P&D, fui fundamental na inovação e na definição do futuro de nossas ofertas de produtos. Com base em minha expertise, liderei o design de protótipos de software e eletrônicos adaptados às demandas de mercado em evolução. Meu trabalho focou principalmente na conceituação e desenvolvimento de equipamentos avançados de autoatendimento e pagamento. Além do desenvolvimento prático, atuei como referência técnica para a equipe de desenvolvimento e arquitetura, garantindo que nossos protótipos não fossem apenas viáveis, mas líderes de mercado em design e funcionalidade."
-                }
-            },
-            "technologies": {
-                "i18n": {
-                    "en": "C, C++, Javascript, Python, Typescript, NodeJS, AWS, Docker, CI/CD",
-                    "pt-br": "C, C++, Javascript, Python, Typescript, NodeJS, AWS, Docker, CI/CD"
-                }
-            },
-            "description": [
-                {
-                    "i18n": {
-                        "en": "Design software prototypes",
-                        "pt-br": "Projetar protótipos de sistemas computacionais"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Design electronic prototypes",
-                        "pt-br": "Projetar protótipos eletrônicos"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Develop self-service and payment equipment",
-                        "pt-br": "Desenvolver equipamentos de auto-atendimento e pagamento"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Technically leading the development and architecture team",
-                        "pt-br": "Liderar técnicamente equipe de desenvolvimento e arquitetura"
-                    }
-                }
-            ]
-        },
-        {
-            "start": "2013",
-            "end": "2015",
-            "company": "Miti Inteligência",
-            "i18n": {
-                "en": "Senior Software Engineer / Network Administrator",
-                "pt-br": "Engenheiro de Software Sênior / Administrador de redes"
-            },
-            "context": {
-                "i18n": {
-                    "en": "As a Senior Software Engineer / Network Administrator, I successfully bridged the world of software development and network administration. With proficiency in C++, Javascript, Python, and PHP, I took the helm in developing advanced software solutions dedicated to content indexing. In the realm of network administration, I was responsible for the meticulous maintenance of our infrastructure, ensuring optimal performance and security. A pivotal highlight of this experience was leading and executing a transformative project. Under my guidance, we undertook the ambitious task of refactoring our entire bare-metal infrastructure, transitioning it to a fully virtualized environment seamlessly integrated with cloud technologies. This marked my inaugural experience in technical leadership.",
-                    "pt-br": "Como Engenheiro de Software Sênior C/C++ no setor de P&D, fui fundamental na inovação e na definição do futuro de nossas ofertas de produtos. Com base em minha expertise, liderei o design de protótipos de software e eletrônicos adaptados às demandas de mercado em evolução. Meu trabalho focou principalmente na conceituação e desenvolvimento de equipamentos avançados de autoatendimento e pagamento. Além do desenvolvimento prático, atuei como referência técnica para a equipe de desenvolvimento e arquitetura, garantindo que nossos protótipos não fossem apenas viáveis, mas líderes de mercado em design e funcionalidade."
-                }
-            },
-            "technologies": {
-                "i18n": {
-                    "en": "C, C++, Javascript, Python, PHP",
-                    "pt-br": "C, C++, Javascript, Python, PHP"
-                }
-            },
-            "description": [
-                {
-                    "i18n": {
-                        "en": "Develop software solutions for content indexing",
-                        "pt-br": "Desenvolver soluções de software para indexação de conteúdo"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Maintain and update on-premises and cloud infrastructure",
-                        "pt-br": "Manter e atualizar infraestrutura local e na nuvem"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Technically leading the development and infrastructure team",
-                        "pt-br": "Liderar técnicamente equipe de desenvolvimento e infraestrutura"
-                    }
-                }
-            ]
-        },
-        {
-            "start": "2012",
-            "end": "2013",
-            "company": "Pubble ",
-            "i18n": {
-                "en": "Full Software Engineer",
-                "pt-br": "Engenheiro de Software Pleno"
-            },
-            "context": {
-                "i18n": {
-                    "en": "As a Software Engineer, I employed a broad skill set, including C++, Javascript, Python, and PHP, to craft efficient and scalable APIs. My role not only revolved around software development but also encompassed Linux system administration and databases, ensuring robust system performance and integration of our developed solutions.",
-                    "pt-br": "Como Engenheiro de Software, utilizei um amplo conjunto de habilidades, incluindo C++, Javascript, Python e PHP, para criar APIs eficientes e escaláveis. Minha função não se restringiu apenas ao desenvolvimento de software, mas também abrangeu administração de sistemas Linux e bancos de dados, garantindo um desempenho de sistema robusto e a integração de nossas soluções desenvolvidas."
-                }
-            },
-            "technologies": {
-                "i18n": {
-                    "en": "C, C++, Javascript, Python, PHP",
-                    "pt-br": "C, C++, Javascript, Python, PHP"
-                }
-            },
-            "description": [
-                {
-                    "i18n": {
-                        "en": "Develop API's",
-                        "pt-br": "Desenvolver API's"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Linux system administration",
-                        "pt-br": "Administrar de sistemas linux"
-                    }
-                }
-            ]
-        },
-        {
-            "start": "2011",
-            "end": "2012",
-            "company": "Politec(Indra)",
-            "i18n": {
-                "en": "Systems Support Analyst",
-                "pt-br": "Analista de Suporte a sistemas"
-            },
-            "context": {
-                "i18n": {
-                    "en": "As a Systems Support Analyst allocated to outsourced projects at HSBC GLT, I played an integral role in Linux system administration. My responsibilities encompassed managing and optimizing the SWIFT bank messaging system, ensuring timely and secure communication. To enhance operational efficiency, I developed automated support routines, effectively reducing manual intervention and response times. Additionally, I was in charge of the exchange transactions database, overseeing its management to guarantee accurate and prompt transaction processing.",
-                    "pt-br": "Como Analista de Suporte de Sistemas alocado em projetos terceirizados no HSBC GLT, desempenhei um papel integral na administração de sistemas Linux. Minhas responsabilidades incluíram gerenciar e otimizar o sistema de mensagens bancárias SWIFT, assegurando comunicações pontuais e seguras. Para aumentar a eficiência operacional, desenvolvi rotinas de suporte automatizadas, reduzindo efetivamente a intervenção manual e os tempos de resposta. Além disso, fui encarregado do banco de dados de transações de câmbio, supervisionando sua gestão para garantir um processamento de transações preciso e pontual."
-                }
-            },
-            "technologies": {
-                "i18n": {
-                    "en": "Bash, Javascript, Python",
-                    "pt-br": "Bash, Javascript, Python"
-                }
-            },
-            "description": [
-                {
-                    "i18n": {
-                        "en": "Allocated to outsourced work at HSBC GLT",
-                        "pt-br": "Alocado para trabalho tercerizado no HSBC GLT"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Linux system administration",
-                        "pt-br": "Administrar de sistemas linux"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Manage and maintain swift bank messaging system",
-                        "pt-br": "Gerenciar e manter sistema de mensageria bancária swift"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Develop support automation routines",
-                        "pt-br": "Desenvolver rotinas de automatização de suporte"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Manage exchange transactions database",
-                        "pt-br": "Administrar banco de dados de transações de câmbio"
-                    }
-                }
-            ]
-        },
-        {
-            "start": "2010",
-            "end": "2011",
-            "company": "Javé Nessí",
-            "i18n": {
-                "en": "Full C/C ++ Developer",
-                "pt-br": "Desenvolvedor C/C++ Pleno"
-            },
-            "context": {
-                "i18n": {
-                    "en": "As a Full C/C++ Developer, I craft robust APIs and intuitive front-end interfaces. My diverse responsibilities spanned from software development to Linux system administration, ensuring a cohesive system performance. A standout in my portfolio includes designing management systems specifically tailored for dental and healthcare sectors.",
-                    "pt-br": "Como Desenvolvedor Pleno C/C++, criei APIs robustas e interfaces de usuário intuitivas. Minhas diversas responsabilidades variaram desde o desenvolvimento de software até a administração de sistemas Linux, assegurando um desempenho de sistema coeso. Um destaque em meu portfólio inclui o design de sistemas de gestão especificamente adaptados para os setores de odontologia e saúde."
-                }
-            },
-            "technologies": {
-                "i18n": {
-                    "en": "C, C++, Javascript, PHP",
-                    "pt-br": "C, C++, Javascript, PHP"
-                }
-            },
-            "description": [
-                {
-                    "i18n": {
-                        "en": "Develop API's",
-                        "pt-br": "Desenvolver API's"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Develop Front-end interface",
-                        "pt-br": "Desenvolver interface front-end"
-                    }
-                },
-                {
-                    "i18n": {
-                        "en": "Linux system administration",
-                        "pt-br": "Administrar de sistemas linux"
-                    }
-                }
-            ]
+      },
+      "technologies": {
+        "i18n": {
+          "en": "Typescript, Python, NodeJS, Flutter, GO, AWS, Docker, TDD, CI/CD",
+          "pt-br": "Typescript, Python, NodeJS, Flutter, GO, AWS, Docker, TDD, CI/CD"
         }
-    ],
-    "languages": [
+      },
+      "description": [
         {
-            "name": {
-                "i18n": {
-                    "en": "English",
-                    "pt-br": "Inglês"
-                }
-            },
-            "proficiency": {
-                "i18n" : {
-                    "en": "Advanced",
-                    "pt-br": "Avançado"
-                }
-            },
-            "level": "C1"
+          "i18n": {
+            "en": "Technical leadership for mobile and web projects",
+            "pt-br": "Liderança técnica para projetos mobile e web"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Responsible for ensure the quality and delivery of the projects",
+            "pt-br": "Responsável por garantir a qualidade e entrega dos projetos"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Carrer management",
+            "pt-br": "Gestão de carreira"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Ensure best software architecture and best patterns",
+            "pt-br": "Garantir a melhor arquitetura e padrões de software"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Task and issue management",
+            "pt-br": "Gestão de tarefas e issues"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Ensure the best practices of the company",
+            "pt-br": "Garantir as melhores práticas da empresa"
+          }
         }
-    ],
-    "main-skills": [
-        {
-            "i18n": {
-                "en": "C",
-                "pt-br": "C"
-            },
-            "skill": "4",
-            "years": "15"
-        },
-        {
-            "i18n": {
-                "en": "C++",
-                "pt-br": "C++"
-            },
-            "skill": "5",
-            "years": "15"
-        },
-        {
-            "i18n": {
-                "en": "Javascript",
-                "pt-br": "Javascript"
-            },
-            "skill": "5",
-            "years": "10"
-        },
-        {
-            "i18n": {
-                "en": "Typescript",
-                "pt-br": "Typescript"
-            },
-            "skill": "5",
-            "years": "5"
-        },
-        {
-            "i18n": {
-                "en": "NodeJS",
-                "pt-br": "NodeJS"
-            },
-            "skill": "5",
-            "years": "7"
-        },
-        {
-            "i18n": {
-                "en": "python",
-                "pt-br": "python"
-            },
-            "skill": "4",
-            "years": "5"
-        },
-        {
-            "i18n": {
-                "en": "leadership",
-                "pt-br": "liderança técnica"
-            },
-            "skill": "4",
-            "years": "3"
+      ]
+    },
+    {
+      "start": "2021",
+      "end": "2022",
+      "company": "Payface",
+      "i18n": {
+        "en": "Senior Back-end Software Engineer",
+        "pt-br": "Engenheiro de Software Back-end Sênior"
+      },
+      "context": {
+        "i18n": {
+          "en": "As a Senior Back-end Software Engineer, I specialized in crafting high-performance software for payment systems using advanced technologies like TypeScript, NodeJS, AWS, and Docker. My role involved spearheading the design of APIs, leading the architecture planning, and performing in-depth technical analyses for various project demands, including roadmaps, internal tools, and refactoring initiatives. I championed the implementation of agile culture, ensuring streamlined workflows and timely deliveries. Additionally, I served as the technical lead for both the Consumer and Client/Integration teams, fostering collaboration and driving technical excellence across the board.",
+          "pt-br": "Como Engenheiro de Software Sênior de Back-end, me especializei na criação de software de alta performance para sistemas de pagamento usando tecnologias avançadas como TypeScript, NodeJS, AWS e Docker. Minha função envolveu liderar o design de APIs, direcionar o planejamento da arquitetura e realizar análises técnicas aprofundadas para várias demandas do projeto, incluindo roadmaps, ferramentas internas e iniciativas de refatoração. Defendi a implementação da cultura ágil, assegurando fluxos de trabalho ágeis e entregas pontuais. Além disso, atuei como líder técnico tanto para as equipes de Consumidor quanto de Cliente/Integração, fomentando a colaboração e impulsionando a excelência técnica em todos os aspectos."
         }
-    ],
-    "secondary-skills": [
-        {
-            "i18n": {
-                "en": "Embedded systems",
-                "pt-br": "sistemas embarcados"
-            },
-            "skill": "5",
-            "years": 6
-        },
-        {
-            "i18n": {
-                "en": "Back-End",
-                "pt-br": "Back-end"
-            },
-            "skill": "5",
-            "years": 15
-        },
-        {
-            "i18n": {
-                "en": "Cloud",
-                "pt-br": "Cloud"
-            },
-            "skill": "3",
-            "years": 5
-        },
-        {
-            "i18n": {
-                "en": "API and integration",
-                "pt-br": "API's e integração"
-            },
-            "skill": "5",
-            "years": 10
-        },
-        {
-            "i18n": {
-                "en": "Software architecture",
-                "pt-br": "Arquitetura de software"
-            },
-            "skill": "5",
-            "years": 10
-        },
-        {
-            "i18n": {
-                "en": "eletronics",
-                "pt-br": "eletrônica"
-            },
-            "skill": "3",
-            "years": 3
-        },
-        {
-            "i18n": {
-                "en": "IOT",
-                "pt-br": "IOT"
-            },
-            "skill": "4",
-            "years": 6
+      },
+      "technologies": {
+        "i18n": {
+          "en": "Typescript, NodeJS, AWS, Docker, TDD, CI/CD",
+          "pt-br": "Typescript, NodeJS, AWS, Docker, TDD, CI/CD"
         }
-    ]
+      },
+      "description": [
+        {
+          "i18n": {
+            "en": "Develop back-end software for payment systems",
+            "pt-br": "Desenvolver software back-end para sistemas de pagamento"
+          }
+        },
+        {
+          "i18n": {
+            "en": "API's design",
+            "pt-br": "Desenho de API's"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Implement agile culture",
+            "pt-br": "Planejamento e treinamento de Agile(Scrum)"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Design and plan architecture solutions",
+            "pt-br": "Desenhar e planejar arquitetura de soluções"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Technical analysis of demands (roadmap, internal tools, refactoring)",
+            "pt-br": "Análise técnica de demandas(roadmap, ferramentas internas, refactoring)"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Tech lead for Consumer and  Client / Integration teams ",
+            "pt-br": "Tech lead(liderança técnica) dos times de Consumidor e Cliente / Integrador"
+          }
+        }
+      ]
+    },
+    {
+      "start": "2019",
+      "end": "2021",
+      "company": "Telefonica Brasil",
+      "i18n": {
+        "en": "Senior Embedded Software Engineer",
+        "pt-br": "Engenheiro de Software Embarcado Sênior"
+      },
+      "context": {
+        "i18n": {
+          "en": "As a Senior Embedded Software Engineer, I excelled in developing sophisticated software solutions for IPTV/Set-top-box devices, leveraging my expertise to highlight of my tenure involved significant enhancements to the channel recording system, rectifying persisting issues and amplifying its efficiency. Furthermore, I spearheaded the development and ongoing maintenance of the Friendly User Test (FUT) software, which resulted in a substantial improvement, catching over 60% more bugs before transitioning to production, ensuring a higher-quality product release",
+          "pt-br": "Como Engenheiro de Software Embarcado Sênior, destaquei-me no desenvolvimento de soluções de software sofisticadas para dispositivos IPTV/Set-top-box, utilizando minha expertise para efetuar melhorias significativas no sistema de gravação de canais, corrigindo problemas persistentes e aumentando sua eficiência. Além disso, liderei o desenvolvimento e a manutenção contínua do software de Teste de Usuário Amigável (FUT), resultando em uma melhoria substancial, capturando mais de 60% dos bugs antes da transição para a produção, garantindo um lançamento de produto de maior qualidade."
+        }
+      },
+      "technologies": {
+        "i18n": {
+          "en": "C, C++, Typescript, Javascript, Python, NodeJS, CI/CD",
+          "pt-br": "C, C++, Typescript, Javascript, Python, NodeJS, CI/CD"
+        }
+      },
+      "description": [
+        {
+          "i18n": {
+            "en": "Develop software solutions for IPTV/Set-top-box devices",
+            "pt-br": "Desenvolver soluções de software para dispositivos IPTV / decodificadores"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Fix and improve the channel recording system",
+            "pt-br": "Melhorar o sistema de gravação de canais"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Develop and maintain FUT(Friendly User Test) software improving bug detection over 60% before production",
+            "pt-br": "Desenvolver e manter o software FUT (Teste de Usuário Amigável) melhorando a detecção de bug em 60% antes da implantação em produção"
+          }
+        }
+      ]
+    },
+    {
+      "start": "2017",
+      "company": "DMC Consultoria",
+      "i18n": {
+        "en": "Senior Software Engineer / Technology Consultant",
+        "pt-br": "Engenheiro de Software Sênior / Consultor na área de Técnologia"
+      },
+      "context": {
+        "i18n": {
+          "en": "As a liberal professional and consultant, I specialize in the design and development of state-of-the-art test equipment tailored for the industrial sector. My expertise lies in creating electronic jigs for cable and board/product testing, utilizing embedded Linux combined with a suite of technologies including C, C++, Javascript, Python, Typescript, NodeJS, among others. Those projects are dedicated to crafting both hardware and software solutions that address industry-specific challenges. Beyond product development, I offer technology and IT process consultation, ensuring that our solutions not only address immediate needs but also streamline operational workflows. My commitment is to deliver precision, efficiency, and innovation in every project, balancing entrepreneurial agility with quality.",
+          "pt-br": "Como profissional liberal e consultor, especializo-me no design e desenvolvimento de equipamentos de teste de última geração adaptados para o setor industrial. Minha expertise reside na criação de dispositivos eletrônicos para testes de cabos e placas/produtos, utilizando Linux embarcado combinado com um conjunto de tecnologias incluindo C, C++, Javascript, Python, TypeScript, NodeJS, entre outros. Esses projetos são dedicados a elaborar soluções de hardware e software que atendem aos desafios específicos da indústria. Além do desenvolvimento de produtos, ofereço consultoria em tecnologia e processos de TI, garantindo que nossas soluções atendam não apenas às necessidades imediatas, mas também otimizem os fluxos de trabalho operacionais. Meu compromisso é entregar precisão, eficiência e inovação em cada projeto, equilibrando agilidade empreendedora com qualidade."
+        }
+      },
+      "technologies": {
+        "i18n": {
+          "en": "C, C++, Javascript, Python, Typescript, NodeJS, AWS, Docker, CI/CD",
+          "pt-br": "C, C++, Javascript, Python, Typescript, NodeJS, AWS, Docker, CI/CD"
+        }
+      },
+      "description": [
+        {
+          "i18n": {
+            "en": "Develop solutions for testing hardware devices",
+            "pt-br": "Desenvolver soluções para testar dispositivos de hardware"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Criar soluções de hardware e software",
+            "pt-br": "Create hardware and software solutions"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Solve Tech and IT process",
+            "pt-br": "Soluções em Técnologia e processos de T.I."
+          }
+        }
+      ]
+    },
+    {
+      "start": "2018",
+      "end": "2019",
+      "company": "Deal",
+      "i18n": {
+        "en": "Senior Back-end Software Engineer",
+        "pt-br": "Engenheiro de Software Back-end Sênior"
+      },
+      "context": {
+        "i18n": {
+          "en": "As a Senior Back-end Software Engineer, I was assigned to outsourced projects at Telefonica Brasil. Leveraging my expertise specialized in creating robust software solutions for IPTV/Set-top-box devices. My involvement ensured the seamless integration and optimization of these systems, with a focus on efficiency and performance. In addition, my knowledge of CI/CD further streamlined the development process, emphasizing consistent and high-quality product deliveries.",
+          "pt-br": "Como Engenheiro de Software Sênior de Back-end, fui designado para projetos terceirizados na Telefonica Brasil. Utilizando minha expertise, especializei-me na criação de soluções de software robustas para dispositivos IPTV/Set-top-box. Minha participação garantiu a integração e otimização contínuas desses sistemas, com foco em eficiência e desempenho. Além disso, meu conhecimento em CI/CD aprimorou ainda mais o processo de desenvolvimento, enfatizando entregas de produtos consistentes e de alta qualidade."
+        }
+      },
+      "technologies": {
+        "i18n": {
+          "en": "C, C++, Typescript, Javascript, Python, NodeJS, CI/CD",
+          "pt-br": "C, C++, Typescript, Javascript, Python, NodeJS, CI/CD"
+        }
+      },
+      "description": [
+        {
+          "i18n": {
+            "en": "Allocated to outsourced work at Telefonica Brasil",
+            "pt-br": "Alocado para trabalho tercerizado na Telefonica Brasil"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Develop software solutions for IPTV/Set-top-box devices",
+            "pt-br": "Desenvolver soluções de software para dispositivos IPTV / decodificadores"
+          }
+        }
+      ]
+    },
+    {
+      "start": "2016",
+      "end": "2018",
+      "company": "Grupo ABL",
+      "i18n": {
+        "en": "Senior C/C++ Software Engineer",
+        "pt-br": "Engenheiro de Software C/C++ Sênior"
+      },
+      "context": {
+        "i18n": {
+          "en": "As a Senior C/C++ Software Engineer in the P&D sector, I was instrumental in innovating and shaping the future of our product offerings. Drawing from my expertise I took the lead in designing both software and electronic prototypes tailored to evolving market demands. My work primarily revolved around the conceptualization and development of cutting-edge self-service and payment equipment. Beyond hands-on development, I served as the technical beacon for the development and architecture team, ensuring our prototypes were not just viable but industry-leading in design and functionality.",
+          "pt-br": "Como Engenheiro de Software Sênior C/C++ no setor de P&D, fui fundamental na inovação e na definição do futuro de nossas ofertas de produtos. Com base em minha expertise, liderei o design de protótipos de software e eletrônicos adaptados às demandas de mercado em evolução. Meu trabalho focou principalmente na conceituação e desenvolvimento de equipamentos avançados de autoatendimento e pagamento. Além do desenvolvimento prático, atuei como referência técnica para a equipe de desenvolvimento e arquitetura, garantindo que nossos protótipos não fossem apenas viáveis, mas líderes de mercado em design e funcionalidade."
+        }
+      },
+      "technologies": {
+        "i18n": {
+          "en": "C, C++, Javascript, Python, Typescript, NodeJS, AWS, Docker, CI/CD",
+          "pt-br": "C, C++, Javascript, Python, Typescript, NodeJS, AWS, Docker, CI/CD"
+        }
+      },
+      "description": [
+        {
+          "i18n": {
+            "en": "Design software prototypes",
+            "pt-br": "Projetar protótipos de sistemas computacionais"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Design electronic prototypes",
+            "pt-br": "Projetar protótipos eletrônicos"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Develop self-service and payment equipment",
+            "pt-br": "Desenvolver equipamentos de auto-atendimento e pagamento"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Technically leading the development and architecture team",
+            "pt-br": "Liderar técnicamente equipe de desenvolvimento e arquitetura"
+          }
+        }
+      ]
+    },
+    {
+      "start": "2013",
+      "end": "2015",
+      "company": "Miti Inteligência",
+      "i18n": {
+        "en": "Senior Software Engineer / Network Administrator",
+        "pt-br": "Engenheiro de Software Sênior / Administrador de redes"
+      },
+      "context": {
+        "i18n": {
+          "en": "As a Senior Software Engineer / Network Administrator, I successfully bridged the world of software development and network administration. With proficiency in C++, Javascript, Python, and PHP, I took the helm in developing advanced software solutions dedicated to content indexing. In the realm of network administration, I was responsible for the meticulous maintenance of our infrastructure, ensuring optimal performance and security. A pivotal highlight of this experience was leading and executing a transformative project. Under my guidance, we undertook the ambitious task of refactoring our entire bare-metal infrastructure, transitioning it to a fully virtualized environment seamlessly integrated with cloud technologies. This marked my inaugural experience in technical leadership.",
+          "pt-br": "Como Engenheiro de Software Sênior C/C++ no setor de P&D, fui fundamental na inovação e na definição do futuro de nossas ofertas de produtos. Com base em minha expertise, liderei o design de protótipos de software e eletrônicos adaptados às demandas de mercado em evolução. Meu trabalho focou principalmente na conceituação e desenvolvimento de equipamentos avançados de autoatendimento e pagamento. Além do desenvolvimento prático, atuei como referência técnica para a equipe de desenvolvimento e arquitetura, garantindo que nossos protótipos não fossem apenas viáveis, mas líderes de mercado em design e funcionalidade."
+        }
+      },
+      "technologies": {
+        "i18n": {
+          "en": "C, C++, Javascript, Python, PHP",
+          "pt-br": "C, C++, Javascript, Python, PHP"
+        }
+      },
+      "description": [
+        {
+          "i18n": {
+            "en": "Develop software solutions for content indexing",
+            "pt-br": "Desenvolver soluções de software para indexação de conteúdo"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Maintain and update on-premises and cloud infrastructure",
+            "pt-br": "Manter e atualizar infraestrutura local e na nuvem"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Technically leading the development and infrastructure team",
+            "pt-br": "Liderar técnicamente equipe de desenvolvimento e infraestrutura"
+          }
+        }
+      ]
+    },
+    {
+      "start": "2012",
+      "end": "2013",
+      "company": "Pubble ",
+      "i18n": {
+        "en": "Full Software Engineer",
+        "pt-br": "Engenheiro de Software Pleno"
+      },
+      "context": {
+        "i18n": {
+          "en": "As a Software Engineer, I employed a broad skill set, including C++, Javascript, Python, and PHP, to craft efficient and scalable APIs. My role not only revolved around software development but also encompassed Linux system administration and databases, ensuring robust system performance and integration of our developed solutions.",
+          "pt-br": "Como Engenheiro de Software, utilizei um amplo conjunto de habilidades, incluindo C++, Javascript, Python e PHP, para criar APIs eficientes e escaláveis. Minha função não se restringiu apenas ao desenvolvimento de software, mas também abrangeu administração de sistemas Linux e bancos de dados, garantindo um desempenho de sistema robusto e a integração de nossas soluções desenvolvidas."
+        }
+      },
+      "technologies": {
+        "i18n": {
+          "en": "C, C++, Javascript, Python, PHP",
+          "pt-br": "C, C++, Javascript, Python, PHP"
+        }
+      },
+      "description": [
+        {
+          "i18n": {
+            "en": "Develop API's",
+            "pt-br": "Desenvolver API's"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Linux system administration",
+            "pt-br": "Administrar de sistemas linux"
+          }
+        }
+      ]
+    },
+    {
+      "start": "2011",
+      "end": "2012",
+      "company": "Politec(Indra)",
+      "i18n": {
+        "en": "Systems Support Analyst",
+        "pt-br": "Analista de Suporte a sistemas"
+      },
+      "context": {
+        "i18n": {
+          "en": "As a Systems Support Analyst allocated to outsourced projects at HSBC GLT, I played an integral role in Linux system administration. My responsibilities encompassed managing and optimizing the SWIFT bank messaging system, ensuring timely and secure communication. To enhance operational efficiency, I developed automated support routines, effectively reducing manual intervention and response times. Additionally, I was in charge of the exchange transactions database, overseeing its management to guarantee accurate and prompt transaction processing.",
+          "pt-br": "Como Analista de Suporte de Sistemas alocado em projetos terceirizados no HSBC GLT, desempenhei um papel integral na administração de sistemas Linux. Minhas responsabilidades incluíram gerenciar e otimizar o sistema de mensagens bancárias SWIFT, assegurando comunicações pontuais e seguras. Para aumentar a eficiência operacional, desenvolvi rotinas de suporte automatizadas, reduzindo efetivamente a intervenção manual e os tempos de resposta. Além disso, fui encarregado do banco de dados de transações de câmbio, supervisionando sua gestão para garantir um processamento de transações preciso e pontual."
+        }
+      },
+      "technologies": {
+        "i18n": {
+          "en": "Bash, Javascript, Python",
+          "pt-br": "Bash, Javascript, Python"
+        }
+      },
+      "description": [
+        {
+          "i18n": {
+            "en": "Allocated to outsourced work at HSBC GLT",
+            "pt-br": "Alocado para trabalho tercerizado no HSBC GLT"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Linux system administration",
+            "pt-br": "Administrar de sistemas linux"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Manage and maintain swift bank messaging system",
+            "pt-br": "Gerenciar e manter sistema de mensageria bancária swift"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Develop support automation routines",
+            "pt-br": "Desenvolver rotinas de automatização de suporte"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Manage exchange transactions database",
+            "pt-br": "Administrar banco de dados de transações de câmbio"
+          }
+        }
+      ]
+    },
+    {
+      "start": "2010",
+      "end": "2011",
+      "company": "Javé Nessí",
+      "i18n": {
+        "en": "Full C/C ++ Developer",
+        "pt-br": "Desenvolvedor C/C++ Pleno"
+      },
+      "context": {
+        "i18n": {
+          "en": "As a Full C/C++ Developer, I craft robust APIs and intuitive front-end interfaces. My diverse responsibilities spanned from software development to Linux system administration, ensuring a cohesive system performance. A standout in my portfolio includes designing management systems specifically tailored for dental and healthcare sectors.",
+          "pt-br": "Como Desenvolvedor Pleno C/C++, criei APIs robustas e interfaces de usuário intuitivas. Minhas diversas responsabilidades variaram desde o desenvolvimento de software até a administração de sistemas Linux, assegurando um desempenho de sistema coeso. Um destaque em meu portfólio inclui o design de sistemas de gestão especificamente adaptados para os setores de odontologia e saúde."
+        }
+      },
+      "technologies": {
+        "i18n": {
+          "en": "C, C++, Javascript, PHP",
+          "pt-br": "C, C++, Javascript, PHP"
+        }
+      },
+      "description": [
+        {
+          "i18n": {
+            "en": "Develop API's",
+            "pt-br": "Desenvolver API's"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Develop Front-end interface",
+            "pt-br": "Desenvolver interface front-end"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Linux system administration",
+            "pt-br": "Administrar de sistemas linux"
+          }
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": {
+        "i18n": {
+          "en": "English",
+          "pt-br": "Inglês"
+        }
+      },
+      "proficiency": {
+        "i18n": {
+          "en": "Advanced",
+          "pt-br": "Avançado"
+        }
+      },
+      "level": "C1"
+    }
+  ],
+
+  "main-skills": [
+    {
+      "i18n": {"en": "C", "pt-br": "C"},
+      "skill": "4",
+      "years": "17"
+    },
+    {
+      "i18n": {"en": "C++", "pt-br": "C++"},
+      "skill": "5",
+      "years": "17"
+    },
+    {
+      "i18n": {"en": "Javascript", "pt-br": "Javascript"},
+      "skill": "5",
+      "years": "13"
+    },
+    {
+      "i18n": {"en": "Typescript", "pt-br": "Typescript"},
+      "skill": "5",
+      "years": "8"
+    },
+    {
+      "i18n": {"en": "NodeJS", "pt-br": "NodeJS"},
+      "skill": "5",
+      "years": "10"
+    },
+    {
+      "i18n": {"en": "python", "pt-br": "python"},
+      "skill": "4",
+      "years": "5"
+    },
+    {
+      "i18n": {"en": "leadership", "pt-br": "liderança técnica"},
+      "skill": "4",
+      "years": "6"
+    },
+    {
+      "i18n": {
+        "en": "Architecture leadership",
+        "pt-br": "liderança em arquitetura"
+      },
+      "skill": "5",
+      "years": "4"
+    },
+    {
+      "i18n": {"en": "Kubernetes", "pt-br": "Kubernetes"},
+      "skill": "4",
+      "years": "2"
+    }
+  ],
+  "secondary-skills": [
+    {
+      "i18n": {"en": "Embedded systems", "pt-br": "sistemas embarcados"},
+      "skill": "5",
+      "years": 8
+    },
+    {
+      "i18n": {"en": "Back-End", "pt-br": "Back-end"},
+      "skill": "5",
+      "years": 18
+    },
+    {
+      "i18n": {"en": "Cloud", "pt-br": "Cloud"},
+      "skill": "4",
+      "years": 7
+    },
+    {
+      "i18n": {"en": "API and integration", "pt-br": "API's e integração"},
+      "skill": "5",
+      "years": 13
+    },
+    {
+      "i18n": {
+        "en": "Software architecture",
+        "pt-br": "Arquitetura de software"
+      },
+      "skill": "5",
+      "years": 13
+    },
+    {
+      "i18n": {"en": "eletronics", "pt-br": "eletrônica"},
+      "skill": "3",
+      "years": 3
+    },
+    {
+      "i18n": {"en": "IOT", "pt-br": "IOT"},
+      "skill": "4",
+      "years": 7
+    },
+    {
+      "i18n": {"en": "Observability", "pt-br": "Observabilidade"},
+      "skill": "4",
+      "years": 2
+    },
+    {
+      "i18n": {"en": "Security", "pt-br": "Segurança"},
+      "skill": "4",
+      "years": 2
+    },
+    {
+      "i18n": {"en": "Payment systems", "pt-br": "Sistemas de pagamento"},
+      "skill": "5",
+      "years": 2
+    },
+    {
+      "i18n": {"en": "Stripe", "pt-br": "Stripe"},
+      "skill": "4",
+      "years": 2
+    }
+  ]
 }

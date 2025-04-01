@@ -3,7 +3,7 @@
 }
 
 .bg-dark {
-    background-color: rgb(38, 38, 38) !important;
+    background-color: rgb(33, 33, 33) !important;
 }
 
 .img-face {
@@ -11,6 +11,14 @@
     border: 0 !important;
     box-shadow: none;
     padding: 0;
+}
+
+.cover-img-face {
+    border: 0 !important;
+    border: 0 !important;
+    box-shadow: none;
+    padding: 0;
+    max-width: 30%;
 }
 
 .row {
@@ -43,6 +51,10 @@ body {
 
 .fw-bolder {
     font-weight: bolder !important;
+}
+
+.italic {
+    font-style: italic !important;
 }
 
 .bg-success-aqua {
@@ -79,6 +91,18 @@ body {
     bottom: 23px;
 }
 
+.separator-bar-experience {
+    min-height: 3px !important;
+    height: 3px !important;
+    max-height: 3px !important;
+    position: relative !important;
+    bottom: 23px;
+    border-top: 3px dashed #000;
+    /* this makes it a dashed line */
+    background: none !important;
+    /* remove any background color */
+}
+
 .fs-1 {
     font-size: 3.5rem !important;
 }
@@ -98,7 +122,7 @@ body {
 
 .progress {
     display: flex;
-    height: 1rem;
+    height: 1.5rem;
     overflow: hidden;
     font-size: 0.75rem;
     background-color: #424242;
@@ -121,6 +145,7 @@ body {
     .fs-1 {
         font-size: 1.9rem !important;
     }
+
     .fs-3 {
         font-size: 1.7rem !important;
     }
@@ -136,6 +161,7 @@ body {
     .fs-1 {
         font-size: 1.7rem !important;
     }
+
     .fs-3 {
         font-size: 1.5rem !important;
     }
@@ -145,6 +171,7 @@ body {
     .fs-1 {
         font-size: 1.5rem !important;
     }
+
     .fs-3 {
         font-size: 1.3rem !important;
     }
@@ -154,6 +181,7 @@ body {
     .fs-1 {
         font-size: 1.3rem !important;
     }
+
     .fs-3 {
         font-size: 1.1rem !important;
     }
@@ -169,3 +197,47 @@ body {
         visibility: hidden;
     }
 }
+
+/*
+@media print {
+    @page {
+        margin: 0;
+    }
+    .img-face {
+        max-width: 50% !important;
+    }
+    .cover-img-face {
+        max-width: 30% !important;
+    }
+    .col-md-3 {
+        flex: 0 0 auto;
+        display: flex;
+        -webkit-display: flex;
+        -moz-display: flex;
+        -ms--display: flex;
+        max-width: 30% !important;
+    }
+    .col-md-12 {
+        flex: 0 0 auto;
+        display: flex;
+        -webkit-display: flex;
+        -moz-display: flex;
+        -ms--display: flex;
+        max-width: 30% !important;
+    }.cover-img-face {
+        max-width: 30% !important;
+    }
+    .col-md-3 {
+        flex: 0 0 auto;
+        max-width: 30% !important;
+    }
+    .col-md-8 {
+        flex: 0 0 auto;
+        max-width: 70% !important;
+    }
+    .container {        
+        padding: 2em 2em 2em 2em !important;
+        max-width: 100% !important;
+    }
+}
+*/

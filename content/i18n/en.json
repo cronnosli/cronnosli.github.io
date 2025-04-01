@@ -1,39 +1,37 @@
 {
-    "title": "Resume",
-    "menu": {
-        "resume": "Resume",
-        "letter": "Cover letter",
-        "language": "Language",
-        "english": "English",
-        "portuguese": "Portuguese",
-        "download-pdf": "Download"
-    },
-    "profession": {
-        "title": "Senior Software Engineer",
-        "description": "Seasoned software engineer boasting over 15 years of deep experience across technologies such as C/C++, PHP, Python, and Javascript. I firmly believe in the importance of robust testing, consistently integrating Test-Driven Development (TDD) into my workflow to ensure software reliability and maintainability. My commitment to clean code, SOLID principles, and clean architecture underpins every project I undertake, assuring longevity and scalability. With a rich background in software architecture, CI/CD pipelines, cloud integrations, and API design, I've delivered resilient solutions in embedded systems, web platforms, and backend architectures. Agile methodologies guide my approach, with a keen focus on distributed systems, IoT devices, and both SQL and NoSQL databases. Throughout my career, I've championed best practices, ensuring that both code and system architectures are not only efficient but also stand rigorous testing."
-    },
-    "footer": {
-        "cookies-warning": "This site uses cookies to provide the necessary functionality and improve your browsing experience. By continuing to browse the site, you agree to the use of cookies.",
-        "cookies-confirm": "Confirm"
-    },
-    "side": {
-        "contact": "Contact",
-        "education": "Education",
-        "references": "References",
-        "languages": "Languages"
-    },
-    "experience": {
-        "recent": "work experience",
-        "skills": "expertise",
-        "technologies": "technologies: "
-    },
-    "date": {
-        "currently": "currently",
-        "year": "year"
-
-    },
-    "greetings": {
-        "sincerely": "Sincerely,"
-    }
-
+  "title": "Resume",
+  "menu": {
+    "resume": "Resume",
+    "letter": "Cover letter",
+    "language": "Language",
+    "english": "English",
+    "portuguese": "Portuguese",
+    "download-pdf": "Download"
+  },
+  "profession": {
+    "title": "Senior Software Engineer",
+    "description": "Seasoned software engineer boasting over 19 years of deep experience across technologies such as C/C++, PHP, Python, and Javascript. I firmly believe in the importance of robust testing, consistently integrating Test-Driven Development (TDD) into my workflow to ensure software reliability and maintainability. My commitment to clean code, SOLID principles, and clean architecture underpins every project I undertake, assuring longevity and scalability. With a rich background in software architecture, CI/CD pipelines, cloud integrations, and API design, I've delivered resilient solutions in embedded systems, web platforms, and backend architectures. Agile methodologies guide my approach, with a keen focus on distributed systems, IoT devices, and both SQL and NoSQL databases. Throughout my career, I've championed best practices, ensuring that both code and system architectures are not only efficient but also stand rigorous testing."
+  },
+  "footer": {
+    "cookies-warning": "This site uses cookies to provide the necessary functionality and improve your browsing experience. By continuing to browse the site, you agree to the use of cookies.",
+    "cookies-confirm": "Confirm"
+  },
+  "side": {
+    "contact": "Contact",
+    "education": "Education",
+    "references": "References",
+    "languages": "Languages"
+  },
+  "experience": {
+    "recent": "work experience",
+    "skills": "expertise",
+    "technologies": "technologies: "
+  },
+  "date": {
+    "currently": "currently",
+    "year": "year"
+  },
+  "greetings": {
+    "sincerely": "Sincerely,"
+  }
 }
