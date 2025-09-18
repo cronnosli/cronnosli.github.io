@@ -114,6 +114,7 @@
   "experience": [
     {
       "start": "2025",
+      "end": "2025",
       "company": "Jusfy",
       "i18n": {
         "en": "Staff Software Engineer – Platform/Architecture & Payments",
