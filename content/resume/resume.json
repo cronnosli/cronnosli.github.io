@@ -114,6 +114,64 @@
   "experience": [
     {
       "start": "2025",
+      "company": "Podium Educação",
+      "i18n": {
+        "en": "Technical Leadership / Engineering Manager",
+        "pt-br": "Liderança Técnica / Gerente de Engenharia"
+      },
+      "context": {
+        "i18n": {
+          "en": "Lead the engineering organization of a national SaaS serving thousands of barbershops. Built the entire tech team, shaped engineering culture, defined software architecture, and internalized all development previously outsourced.",
+          "pt-br": "Lidero a organização de engenharia de um SaaS nacional que atende milhares de barbearias. Estruturei todo o time de tecnologia, moldei a cultura de engenharia, defini a arquitetura de software e internalizei todo o desenvolvimento antes terceirizado."
+        }
+      },
+      "technologies": {
+        "i18n": {
+          "en": "Node.js, TypeScript, PHP, MySQL, Redis, Docker, AWS, React, GitHub Actions, DDD",
+          "pt-br": "Node.js, TypeScript, PHP, MySQL, Redis, Docker, AWS, React, GitHub Actions, DDD"
+        }
+      },
+      "description": [
+        {
+          "i18n": {
+            "en": "Structured the engineering team from the ground up (hiring, mentoring, processes)",
+            "pt-br": "Estruturei a equipe de engenharia do zero (contratações, mentoria, processos)"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Internalized a 3-year-old SaaS platform and eliminated reliance on outsourced teams",
+            "pt-br": "Internalizei uma plataforma SaaS de 3 anos e eliminei a dependência de times terceirizados"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Modernized core domains: billing, subscriptions, authentication, scheduling, payments",
+            "pt-br": "Modernizei domínios centrais: cobrança, assinaturas, autenticação, agendamento, pagamentos"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Redesigned the payment architecture (multi-gateway, recurring billing, failover)",
+            "pt-br": "Redesenhei a arquitetura de pagamentos (multi-gateway, cobrança recorrente, failover)"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Reduced production incidents significantly and increased overall platform stability",
+            "pt-br": "Reduzi significativamente incidentes em produção e aumentei a estabilidade da plataforma"
+          }
+        },
+        {
+          "i18n": {
+            "en": "Established CI/CD pipelines, clean architecture practices, DDD, and code quality standards",
+            "pt-br": "Estabeleci pipelines de CI/CD, práticas de arquitetura limpa, DDD e padrões de qualidade de código"
+          }
+        }
+      ]
+    },
+    {
+      "start": "2025",
       "end": "2025",
       "company": "Jusfy",
       "i18n": {
