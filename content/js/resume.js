@@ -23,6 +23,7 @@ class ResumeBuilder {
 
         this.i18n = new I18nTranslator();
         this.translations = {};
+        this.resumeData = null;
         this._listener();
     }
 
@@ -44,12 +45,13 @@ class ResumeBuilder {
      */
     build() {
         return axios.get('/content/resume/resume.json').then((res) => {
+            this.resumeData = res.data;
             this.translations = res.data.i18n;
             this.buildContact(res.data.contact);
             this.buildEducation(res.data.education);
             this.buildReference(res.data.reference);
             res.data['experience'].prefix = this.config.experiencePrefix;
-            this.buildExperience(res.data['experience']);            
+            this.buildExperience(res.data['experience']);
             res.data['main-skills'].prefix = this.config.mainSkills;
             res.data['secondary-skills'].prefix = this.config.secondarySkills;
             this.buildSkill(res.data['main-skills']);
@@ -61,6 +63,13 @@ class ResumeBuilder {
                 this.i18n.add(i18n, translations[i18n]).translatePageTo(this.config.defaultLanguage);
             }
         });
+    }
+
+    /**
+     * Return loaded resume data for external consumers (export, etc.)
+     */
+    getResumeData() {
+        return this.resumeData;
     }
 
     /**
@@ -258,7 +267,7 @@ class ResumeBuilder {
      */
     buildExperience(experience) {
         const experienceList = document.getElementById(experience.prefix);
-        let indexExperience = 0;        
+        let indexExperience = 0;
         for (indexExperience = 0; indexExperience < experience.length; indexExperience++) {
             const experienceSettings = experience[indexExperience];
             const start = experienceSettings.start;
@@ -291,7 +300,7 @@ class ResumeBuilder {
             newExperienceProfession.appendChild(document.createTextNode(item));
             const newExperienceDescription = document.createElement('div');
             const newExperienceContext = document.createElement('div');
-            newExperienceContext.setAttribute('class', 'col-md-12 fw-normal ps-4');            
+            newExperienceContext.setAttribute('class', 'col-md-12 fw-normal ps-4');
             this.parseI18n({
                 group: experience.prefix,
                 item: 'S' + indexExperience + 'Lcontext',
@@ -339,7 +348,7 @@ class ResumeBuilder {
             newExperience.appendChild(newExperienceProfession);
             newExperience.appendChild(newExperienceDescription);
             newExperience.appendChild(newExperienceSeparator);
-            experienceList.appendChild(newExperience);            
+            experienceList.appendChild(newExperience);
         }
     }
 
@@ -359,7 +368,7 @@ class ResumeBuilder {
                 item: 'S' + skill.prefix + indexSkill,
                 i18n: skillSettings.i18n,
             });
-            const years =  '(' + skillSettings.years + '&nbsp;<span data-i18n="date.year"></span>' + (skillSettings.years > 1 ? 's' : '') + ')';
+            const years = '(' + skillSettings.years + '&nbsp;<span data-i18n="date.year"></span>' + (skillSettings.years > 1 ? 's' : '') + ')';
             const newSkill = document.createElement('div');
             newSkill.setAttribute('class', 'row pt-4 align-items-md-stretch');
             const newSkillName = document.createElement('div');
@@ -380,15 +389,15 @@ class ResumeBuilder {
             const newSkillPointProgress = document.createElement('div');
             newSkillPointProgress.setAttribute('class', 'progress');
             newSkillPoint.appendChild(newSkillPointProgress);
-            const newSkillPointProgressBar = document.createElement('div');            
+            const newSkillPointProgressBar = document.createElement('div');
             newSkillPointProgressBar.setAttribute('class', 'progress-bar bg-success');
             newSkillPointProgressBar.setAttribute('role', 'progressbar');
-            newSkillPointProgressBar.setAttribute('style', 'width: ' + (skillSettings.skill*20) + '%');
-            newSkillPointProgressBar.setAttribute('aria-valuenow', skillSettings.skill*20);
+            newSkillPointProgressBar.setAttribute('style', 'width: ' + (skillSettings.skill * 20) + '%');
+            newSkillPointProgressBar.setAttribute('aria-valuenow', skillSettings.skill * 20);
             newSkillPointProgressBar.setAttribute('aria-valuemin', '0');
             newSkillPointProgressBar.setAttribute('aria-valuemax', '100');
             const points = document.createElement('div');
-            points.setAttribute('class', 'text-light text-start ps-5');          
+            points.setAttribute('class', 'text-light text-start ps-5');
             points.appendChild(document.createTextNode(skillSettings.skill));
             newSkillPointProgressBar.appendChild(points);
             newSkillPointProgress.appendChild(newSkillPointProgressBar);

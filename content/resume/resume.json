@@ -2,14 +2,14 @@
   "i18n": {
     "en": {
       "header": {
-        "name": "douglas menegon cordeiro",
-        "short-name": "douglas"
+        "name": "Douglas Menegon Cordeiro",
+        "short-name": "Douglas"
       }
     },
     "pt-br": {
       "header": {
-        "name": "douglas menegon cordeiro",
-        "short-name": "douglas"
+        "name": "Douglas Menegon Cordeiro",
+        "short-name": "Douglas"
       }
     }
   },
@@ -171,17 +171,17 @@
       ]
     },
     {
-      "start": "2025",
+      "start": "2023",
       "end": "2025",
       "company": "Jusfy",
       "i18n": {
-        "en": "Staff Software Engineer – Platform/Architecture & Payments",
-        "pt-br": "Staff Software Engineer – Plataforma/Arquitetura e Pagamentos"
+        "en": "Staff Software Engineer / Technical Lead – Platform, Architecture & Payments",
+        "pt-br": "Staff Software Engineer / Líder Técnico – Plataforma, Arquitetura e Pagamentos"
       },
       "context": {
         "i18n": {
-          "en": "At Jusfy, I lead platform and payment architecture efforts to build scalable, resilient, and secure systems. Responsible for architectural decisions, performance optimization, and enforcing engineering principles such as Clean Code, SOLID, and TDD. Collaborate with cross-functional teams to align technology with business goals while ensuring security, observability, and high availability across services.",
-          "pt-br": "Na Jusfy, lidero iniciativas de arquitetura de plataforma e pagamentos para construir sistemas escaláveis, resilientes e seguros. Responsável por decisões arquiteturais, otimização de performance e aplicação de princípios como Clean Code, SOLID e TDD. Colaboro com times multifuncionais para alinhar tecnologia aos objetivos de negócio, garantindo segurança, observabilidade e alta disponibilidade dos serviços."
+          "en": "Led platform and payments architecture to build scalable, resilient, and secure systems while heading the Core Experience and Growth teams. Owned architectural decisions, performance, and engineering standards (Clean Code, SOLID, TDD) across services and squads, aligning technology to business outcomes with strong security, observability, and availability.",
+          "pt-br": "Liderei a arquitetura de plataforma e pagamentos para construir sistemas escaláveis, resilientes e seguros, chefiando também os times de Core Experience e Growth. Fui responsável por decisões arquiteturais, performance e padrões de engenharia (Clean Code, SOLID, TDD) em serviços e squads, alinhando tecnologia a resultados de negócio com forte foco em segurança, observabilidade e disponibilidade."
         }
       },
       "technologies": {
@@ -193,79 +193,32 @@
       "description": [
         {
           "i18n": {
-            "en": "Lead and design scalable and high-performance architectures",
-            "pt-br": "Liderar e projetar arquiteturas escaláveis e de alta performance"
+            "en": "Designed and led scalable, high-performance architectures for platform and payments",
+            "pt-br": "Desenhei e liderei arquiteturas escaláveis e de alta performance para plataforma e pagamentos"
           }
         },
         {
           "i18n": {
-            "en": "Ensure security, observability and performance across services",
-            "pt-br": "Garantir segurança, observabilidade e performance entre os serviços"
+            "en": "Owned security, observability, and performance across services and domains",
+            "pt-br": "Fui responsável por segurança, observabilidade e performance entre serviços e domínios"
           }
         },
         {
           "i18n": {
-            "en": "Architect and implement robust payment systems (Stripe, subscriptions, invoicing, fraud prevention)",
-            "pt-br": "Arquitetar e implementar sistemas de pagamento robustos (Stripe, assinaturas, faturamento, prevenção a fraudes)"
+            "en": "Architected and implemented robust payment flows (Stripe, subscriptions, invoicing, fraud prevention)",
+            "pt-br": "Arquitetou e implementou fluxos robustos de pagamento (Stripe, assinaturas, faturamento, prevenção a fraudes)"
           }
         },
         {
           "i18n": {
-            "en": "Promote engineering best practices (Clean Code, SOLID, TDD)",
-            "pt-br": "Promover boas práticas de engenharia (Clean Code, SOLID, TDD)"
+            "en": "Mentored engineers and led Core Experience and Growth squads to deliver critical initiatives",
+            "pt-br": "Mentorei engenheiros e liderei squads de Core Experience e Growth na entrega de iniciativas críticas"
           }
         },
         {
           "i18n": {
-            "en": "Mentor engineers and lead cross-functional collaboration",
-            "pt-br": "Mentorar engenheiros e liderar colaboração entre equipes"
-          }
-        }
-      ]
-    },
-    {
-      "start": "2023",
-      "end": "2025",
-      "company": "Jusfy",
-      "i18n": {
-        "en": "Technical Lead",
-        "pt-br": "Líder Técnico"
-      },
-      "context": {
-        "i18n": {
-          "en": "In my role as Technical Lead at Jusfy, a remote position, I've been leading the Core Experience and Growth teams with a focus on technical leadership, team management, and ensuring the delivery of high-quality projects. My responsibilities include overseeing the architecture and ensuring the application of best practices and patterns in our software development process, mainly using NodeJS, ReactJS, PostgreSQL, AWS, and TypeScript. I'm tasked with managing tasks and issues, thereby guaranteeing the optimal quality and timely delivery of projects.",
-          "pt-br": "No meu papel como Líder Técnico na Jusfy, uma posição remota, tenho liderado os times de Core Experience e Growth com foco em liderança técnica, gerenciamento de equipe e garantia da entrega de projetos de alta qualidade. Minhas responsabilidades incluem supervisionar a arquitetura e garantir a aplicação das melhores práticas e padrões em nosso processo de desenvolvimento de software, utilizando principalmente NodeJS, ReactJS, PostgreSQL, AWS e TypeScript. Sou encarregado de gerenciar tarefas e problemas, garantindo assim a qualidade ótima e entrega pontual dos projetos."
-        }
-      },
-      "technologies": {
-        "i18n": {
-          "en": "NodeJS, ReactJS, PostgreSQL, AWS, TypeScript",
-          "pt-br": "NodeJS, ReactJS, PostgreSQL, AWS, TypeScript"
-        }
-      },
-      "description": [
-        {
-          "i18n": {
-            "en": "Technical leadership for the Core Experience and Growth teams",
-            "pt-br": "Liderança técnica para os times de Core Experience e Growth"
-          }
-        },
-        {
-          "i18n": {
-            "en": "Team management and ensuring the quality and delivery of projects",
-            "pt-br": "Gerenciamento de equipe e garantia da qualidade e entrega dos projetos"
-          }
-        },
-        {
-          "i18n": {
-            "en": "Oversee software architecture and apply best practices and patterns",
-            "pt-br": "Supervisionar a arquitetura de software e aplicar as melhores práticas e padrões"
-          }
-        },
-        {
-          "i18n": {
-            "en": "Task and issue management to ensure timely project delivery",
-            "pt-br": "Gestão de tarefas e problemas para garantir a entrega pontual dos projetos"
+            "en": "Promoted engineering best practices (Clean Code, SOLID, TDD) and reliable delivery processes",
+            "pt-br": "Promovi boas práticas de engenharia (Clean Code, SOLID, TDD) e processos de entrega confiáveis"
           }
         }
       ]

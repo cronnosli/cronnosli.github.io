@@ -6,7 +6,8 @@
     "language": "Language",
     "english": "English",
     "portuguese": "Portuguese",
-    "download-pdf": "Download"
+    "download-pdf": "Download PDF",
+    "download-docx": "Download"
   },
   "profession": {
     "title": "Senior Software Engineer",
